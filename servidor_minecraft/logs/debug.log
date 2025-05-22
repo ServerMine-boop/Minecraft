@@ -6285,3 +6285,99 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [22May2025 17:00:14.486] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=259, y=17, z=54}
 [22May2025 17:00:19.635] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
 [22May2025 17:00:19.636] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=157, y=-30, z=113}
+[22May2025 17:00:32.184] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:32.286] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:34.039] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:34.039] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=157, y=73, z=131}
+[22May2025 17:00:43.186] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:49.436] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:58.686] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:00:58.686] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=185, y=15, z=85}
+[22May2025 17:01:18.484] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:01:18.484] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=219, y=-5, z=91}
+[22May2025 17:01:25.435] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:01:25.435] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=236, y=-35, z=92}
+[22May2025 17:01:25.435] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:01:25.435] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=236, y=-35, z=92}
+[22May2025 17:01:53.186] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:01:53.186] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=103, y=-5, z=201}
+[22May2025 17:01:54.487] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:01:59.082] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 17:01:59.094] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 17:02:01.436] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:02:18.536] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:02:18.536] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=195, y=40, z=90}
+[22May2025 17:02:19.534] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:02:19.534] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=190, y=-46, z=134}
+[22May2025 17:02:25.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Sweet Dreams]
+[22May2025 17:02:26.584] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:02:26.584] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=207, y=-7, z=79}
+[22May2025 17:02:26.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Sweet Dreams]
+[22May2025 17:02:31.536] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[22May2025 17:02:31.536] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=276, y=35, z=165}
+[22May2025 17:02:50.593] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:02:50.600] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:02:59.045] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[22May2025 17:02:59.052] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[22May2025 17:03:05.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
+[22May2025 17:03:05.299] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:179, y:66, z:131, dim:minecraft:overworld]
+[22May2025 17:03:38.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Monster Hunter]
+[22May2025 17:05:30.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Knowledge of Death]
+[22May2025 17:05:30.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Ambush]
+[22May2025 17:05:30.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Monster Hunter]
+[22May2025 17:06:18.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Diamonds!]
+[22May2025 17:06:29.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Tools of the Trade]
+[22May2025 17:06:59.090] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 17:06:59.101] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 17:07:15.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [Quaint Scribe]
+[22May2025 17:07:59.547] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[22May2025 17:07:59.552] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[22May2025 17:08:04.346] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:08:04.355] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:08:10.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 went off with a bang thanks to entity.irons_spellbooks.archevoker
+[22May2025 17:08:10.200] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:293, y:98, z:182, dim:minecraft:overworld]
+[22May2025 17:08:12.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC died
+[22May2025 17:08:12.904] [Server thread/DEBUG] [tombstone/]: A new grave of the player KRC was created at position [x:295, y:98, z:184, dim:minecraft:overworld]
+[22May2025 17:08:12.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Your First Grave]
+[22May2025 17:08:19.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [Here They Come]
+[22May2025 17:08:24.696] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:08:24.698] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:08:31.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Knowledge of Death]
+[22May2025 17:08:31.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [Chain Death]
+[22May2025 17:08:31.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was caught by entity.irons_spellbooks.archevoker's fangs
+[22May2025 17:08:31.201] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:291, y:98, z:186, dim:minecraft:overworld]
+[22May2025 17:08:36.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has reached the goal [Here They Come]
+[22May2025 17:08:41.997] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[22May2025 17:08:41.999] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[22May2025 17:08:44.709] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:08:44.711] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:08:50.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was caught by entity.irons_spellbooks.archevoker's fangs
+[22May2025 17:08:50.958] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:294, y:98, z:183, dim:minecraft:overworld]
+[22May2025 17:09:01.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was eviscerated by entity.irons_spellbooks.archevoker's vexes
+[22May2025 17:09:01.208] [Server thread/DEBUG] [tombstone/]: A new grave of the player KRC was created at position [x:296, y:98, z:182, dim:minecraft:overworld]
+[22May2025 17:09:05.391] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:09:05.398] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:09:14.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 went off with a bang thanks to entity.irons_spellbooks.archevoker
+[22May2025 17:09:14.247] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:293, y:98, z:182, dim:minecraft:overworld]
+[22May2025 17:09:19.491] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[22May2025 17:09:19.499] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[22May2025 17:09:29.646] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:09:29.647] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:09:29.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has reached the goal [Chain Death]
+[22May2025 17:09:29.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC went off with a bang thanks to entity.irons_spellbooks.archevoker
+[22May2025 17:09:29.850] [Server thread/DEBUG] [tombstone/]: A new grave of the player KRC was created at position [x:297, y:98, z:183, dim:minecraft:overworld]
+[22May2025 17:09:36.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was caught by entity.irons_spellbooks.archevoker's fangs
+[22May2025 17:09:36.047] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:292, y:98, z:183, dim:minecraft:overworld]
+[22May2025 17:09:54.294] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:09:54.295] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:09:58.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 died because of KRC
+[22May2025 17:09:58.494] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:292, y:98, z:185, dim:minecraft:overworld]
+[22May2025 17:09:58.496] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:10:01.093] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[22May2025 17:10:01.095] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[22May2025 17:10:10.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was eviscerated by entity.irons_spellbooks.archevoker's vexes
+[22May2025 17:10:10.699] [Server thread/DEBUG] [tombstone/]: A new grave of the player KRC was created at position [x:292, y:98, z:181, dim:minecraft:overworld]
+[22May2025 17:10:14.846] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:10:14.850] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:10:20.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was eviscerated by entity.irons_spellbooks.archevoker's vexes
+[22May2025 17:10:20.759] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:294, y:98, z:186, dim:minecraft:overworld]
