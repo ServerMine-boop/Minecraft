@@ -1,7 +1,7 @@
 #Enable Enemies Swarming You
 enablesiege = false
 #Enable Increased Enemy Presence
-incenemies = true
+incenemies = false
 #Should special mobs spawn riding other mobs?
 isjockies = true
 #Charged Creepers Spawn Naturally
@@ -35,7 +35,7 @@ allowsleep = true
 #Allow Monster Infighting?
 allowmonsterinfighting = true
 #Allow Zombies and Piglins to light flammable things on fire?
-zombieslightfires = true
+zombieslightfires = false
 #Allow Super Skeletons to Spawn in the Game?
 allowsuperskeletons = true
 #Should monsters target villagers?
@@ -83,21 +83,21 @@ entitybuilddelay = 5
 #If entity is within this distance for X and Z, it'll start digging to player
 entitydigdist = 32
 #Above Ground Monster Attack Distance (in Blocks)
-grounddist = 96
+grounddist = 32
 #Below Ground Monster Attack Distance (in Blocks)
-cavedist = 48
+cavedist = 16
 #Chance out of 100 for spider shooting webs each tick. Default = 0.5
 spiderwebchance = 0.5
 #Distance at which spider can shoot a web at player. Default = 2 blocks
 spiderwebdist = 2
 #Maximum Duplicated Enemies. Recommend Min. 1, Max. 4. Must be greater than min duplication clones and greater than 0.
-maxdupes = 3
+maxdupes = 1
 #Maximum Duplicated Enemies. Recommend Min. 0, Max. 4. Must be less than max duplication clones, or, will use max dupes value.
 mindupes = 0
 #Maximum Duplicated Enemies FROM A DUNGEON. Recommend Min. 1, Max. 6. Must be greater than min duplication clones and greater than 0.
-maxdungeondupes = 6
+maxdungeondupes = 1
 #Maximum Duplicated Enemies FROM A DUNGEON. Recommend Min. 0, Max. 3. Must be less than max duplication clones, or, will use max dupes value.
-mindungeondupes = 1
+mindungeondupes = 0
 #Entities that will besiege players.
 siegewhitelist = "spider,cave spider,creeper,skeleton,witch,ghast,giant,husk,hoglin,pillager,vindicator,illusioner,evoker,ravager,shulker,silverfish,stray,slime,witch,zoglin,zombie,zombie villager,zombified piglin,zoglin,drowned,zombie villager,Wither Skeleton,pillager"
 #Any part of a block name, which defines which blocks that siege monsters CANNOT break to try and get to your position.
