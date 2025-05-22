@@ -6381,3 +6381,19 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [22May2025 17:10:14.850] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
 [22May2025 17:10:20.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was eviscerated by entity.irons_spellbooks.archevoker's vexes
 [22May2025 17:10:20.759] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:294, y:98, z:186, dim:minecraft:overworld]
+[22May2025 17:11:59.084] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 17:11:59.095] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 17:13:19.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Ambush]
+[22May2025 17:13:25.943] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:13:25.944] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:13:31.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Pillager
+[22May2025 17:13:31.893] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:312, y:70, z:179, dim:minecraft:overworld]
+[22May2025 17:14:36.962] [Worker-Main-2/DEBUG] [ModernFix/]: Structure dungeons_arise:bathhouse/bathhouse_base_4 is being run through DFU (hash b659f3c9823f98408b37a1c703f780d12cd034dd71c3c7eff72bed23d356958e), this will cause launch time delays
+[22May2025 17:14:37.047] [Worker-Main-2/DEBUG] [ModernFix/]: Structure dungeons_arise:lighthouse/lighthouse_part_2 is being run through DFU (hash 72a6a69c4455c2899ed255d2e47c06e16586e99461fdc851d097d0e1833fb76d), this will cause launch time delays
+[22May2025 17:14:37.136] [Worker-Main-1/DEBUG] [ModernFix/]: Structure irons_spellbooks:priest_house is being run through DFU (hash d76810475d0e95759e3aba14294cb4faa0f372ebdd371e669f8740fcad373d48), this will cause launch time delays
+[22May2025 17:14:59.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [A Fool's Folly]
+[22May2025 17:16:59.080] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22May2025 17:16:59.092] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22May2025 17:17:48.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Acquire Hardware]
+[22May2025 17:18:20.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Into Fire]
+[22May2025 17:18:36.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Ice Bucket Challenge]

@@ -2170,3 +2170,11 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [22May2025 17:10:14.846] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
 [22May2025 17:10:14.850] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
 [22May2025 17:10:20.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was eviscerated by entity.irons_spellbooks.archevoker's vexes
+[22May2025 17:13:19.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Ambush]
+[22May2025 17:13:25.943] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[22May2025 17:13:25.944] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[22May2025 17:13:31.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Pillager
+[22May2025 17:14:59.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [A Fool's Folly]
+[22May2025 17:17:48.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Acquire Hardware]
+[22May2025 17:18:20.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Into Fire]
+[22May2025 17:18:36.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Ice Bucket Challenge]
