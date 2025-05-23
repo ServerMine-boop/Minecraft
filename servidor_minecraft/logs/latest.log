@@ -260,3 +260,16 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [23May2025 23:15:58.998] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
 [23May2025 23:16:05.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Skeleton
 [23May2025 23:16:05.243] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_23.05.2025-23.16.05.dat
+[23May2025 23:28:37.033] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/908, l='ServerLevel[world]', x=167.02, y=67.00, z=140.71] died, message: 'Villager hit the ground too hard'
+[23May2025 23:29:50.440] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[23May2025 23:29:50.453] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[23May2025 23:30:02.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was blown up by Creeper
+[23May2025 23:30:02.444] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_23.05.2025-23.30.02.dat
+[23May2025 23:32:04.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
+[23May2025 23:32:09.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [The Most Useful Key]
+[23May2025 23:32:14.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [A Fast Comeback]
+[23May2025 23:32:25.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Knowledge raises the soul]
+[23May2025 23:32:28.994] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[23May2025 23:32:29.001] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[23May2025 23:32:35.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was blown up by Creeper
+[23May2025 23:40:42.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Best Friends Forever]

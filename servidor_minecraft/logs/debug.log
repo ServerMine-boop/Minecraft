@@ -3960,3 +3960,62 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [23May2025 23:18:25.937] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [23May2025 23:23:25.924] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23May2025 23:23:25.934] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 23:28:25.923] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 23:28:25.933] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 23:28:37.033] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/908, l='ServerLevel[world]', x=167.02, y=67.00, z=140.71] died, message: 'Villager hit the ground too hard'
+[23May2025 23:29:50.440] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[23May2025 23:29:50.453] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[23May2025 23:30:02.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was blown up by Creeper
+[23May2025 23:30:02.444] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_23.05.2025-23.30.02.dat
+[23May2025 23:30:02.447] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:1367, y:56, z:343, dim:minecraft:overworld]
+[23May2025 23:32:04.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
+[23May2025 23:32:09.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [The Most Useful Key]
+[23May2025 23:32:14.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [A Fast Comeback]
+[23May2025 23:32:25.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Knowledge raises the soul]
+[23May2025 23:32:28.994] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[23May2025 23:32:29.001] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[23May2025 23:32:35.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was blown up by Creeper
+[23May2025 23:33:25.918] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 23:33:25.929] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 23:38:25.922] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 23:38:25.933] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 23:40:42.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Best Friends Forever]
+[23May2025 23:41:12.187] [Worker-Main-2/DEBUG] [ModernFix/]: Structure irons_spellbooks:priest_house_taiga is being run through DFU (hash 9f117e8cc42e857987c04d6a9ce33bca12377eb6160657f728880afeab584e49), this will cause launch time delays
+[23May2025 23:41:41.621] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of terralith:village/fortified/start_castle
+[23May2025 23:42:57.428] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:heavenly_rider/heavenly_rider_part_1
+[23May2025 23:42:57.456] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mechanical_nest/mechanical_nest_start_0
+[23May2025 23:42:57.466] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:thornborn_towers/thornborn_towers_part_0_main
+[23May2025 23:42:57.468] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:illager_corsair/illager_corsair_part_0
+[23May2025 23:42:57.480] [Worker-Main-2/DEBUG] [ModernFix/]: Structure dungeons_arise:mushroom_mines/mushroom_mines_part_1 is being run through DFU (hash 1b76022040df1733fa807a501281a93fdc996931b659899e009d837d595dfe05), this will cause launch time delays
+[23May2025 23:42:57.573] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:heavenly_challenger/heavenly_challenger_part_2
+[23May2025 23:42:57.590] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:illager_fort/illager_fort_part_1
+[23May2025 23:42:57.626] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:foundry/foundry_crossing_start_0
+[23May2025 23:42:57.637] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:illager_galley/illager_galley_part_0
+[23May2025 23:42:57.656] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:illager_campsite/illager_campsite_street_6_main
+[23May2025 23:42:57.663] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:merchant_campsite/merchant_campsite_street_4_main
+[23May2025 23:42:57.680] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bandit_towers/bandit_towers_crossing_2
+[23May2025 23:42:57.684] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_house/mushroom_house_bottom_1
+[23May2025 23:42:57.751] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:aviary/aviary_part_13
+[23May2025 23:42:57.768] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:illager_windmill/illager_windmill_part_0
+[23May2025 23:42:57.806] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:heavenly_conqueror/heavenly_conqueror_part_1
+[23May2025 23:42:57.814] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:ceryneian_hind/ceryneian_hind_part_1
+[23May2025 23:42:59.203] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:keep_kayra/keep_kayra_main_0
+[23May2025 23:42:59.480] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:infested_temple/infested_temple_layout_part_1_middle
+[23May2025 23:42:59.498] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:scorched_mines/scorched_mines_well_0
+[23May2025 23:42:59.519] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:undead_pirate_ship/undead_pirate_ship_part_0
+[23May2025 23:42:59.536] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:monastery/monastery_start
+[23May2025 23:42:59.555] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:typhon/typhon_part_1
+[23May2025 23:42:59.570] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bandit_village/bandit_village_street_2
+[23May2025 23:42:59.687] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mushroom_village/mushroom_village_house_big_0
+[23May2025 23:42:59.730] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:coliseum/coliseum_part_1
+[23May2025 23:42:59.756] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:plague_asylum/plague_asylum_corridor_4_crossing_pit
+[23May2025 23:42:59.797] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:mining_system/mining_system_turn_0
+[23May2025 23:42:59.914] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:shiraz_palace/shiraz_palace_part_13
+[23May2025 23:43:25.930] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 23:43:25.941] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 23:44:26.592] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise_seven_seas:victory_frigate/victory_frigate_0
+[23May2025 23:44:26.605] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise_seven_seas:small_yacht/small_yacht_0
+[23May2025 23:44:26.618] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise_seven_seas:pirate_junk/pirate_junk_0
+[23May2025 23:44:26.630] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise_seven_seas:corsair_corvette/corsair_corvette_0
+[23May2025 23:44:26.644] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise_seven_seas:unicorn_galleon/unicorn_galleon_0
+[23May2025 23:44:31.384] [Worker-Main-2/DEBUG] [ModernFix/]: Using cached upgraded version of dungeons_arise:bathhouse/bathhouse_base_1
