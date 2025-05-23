@@ -255,3 +255,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [23May2025 22:55:29.633] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=1208, y=4, z=170}
 [23May2025 22:55:30.732] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
 [23May2025 22:55:59.060] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jhonxd592 moved too quickly! 5.902581672199403,-3.0,-7.849562569831477
+[23May2025 23:10:00.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Isn't It Iron Pick]
+[23May2025 23:15:58.996] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[23May2025 23:15:58.998] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[23May2025 23:16:05.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Skeleton
+[23May2025 23:16:05.243] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_23.05.2025-23.16.05.dat
