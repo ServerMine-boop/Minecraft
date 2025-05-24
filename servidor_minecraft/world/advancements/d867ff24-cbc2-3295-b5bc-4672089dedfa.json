@@ -74,6 +74,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-05-24 00:00:23 +0000",
+      "minecraft:deep_ocean": "2025-05-24 04:19:05 +0000",
       "minecraft:frozen_river": "2025-05-23 22:52:50 +0000",
       "minecraft:beach": "2025-05-22 17:17:21 +0000",
       "minecraft:river": "2025-05-22 17:19:22 +0000",
@@ -82,6 +83,7 @@
       "minecraft:swamp": "2025-05-24 01:31:04 +0000",
       "minecraft:cold_ocean": "2025-05-24 01:58:08 +0000",
       "minecraft:forest": "2025-05-22 16:43:32 +0000",
+      "minecraft:ocean": "2025-05-24 04:18:17 +0000",
       "minecraft:plains": "2025-05-22 16:49:52 +0000"
     },
     "done": false
@@ -2243,81 +2245,21 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
+      "has_spider_eye": "2025-05-24 01:29:50 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "alexscaves:alexscaves/sugar_rush": {
     "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
+      "all_effects": "2025-05-24 01:39:20 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-24 02:02:30 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/fletching_table": {
-    "criteria": {
-      "has_flint": "2025-05-24 02:00:40 +0000"
+      "has_mud": "2025-05-24 01:50:31 +0000"
     },
     "done": true
   },
@@ -2339,9 +2281,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_mud": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "has_mud": "2025-05-24 01:50:31 +0000"
+      "has_iron_nugget": "2025-05-24 01:57:07 +0000"
     },
     "done": true
   },
@@ -2351,15 +2293,9 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/sugar_rush": {
+  "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
-      "all_effects": "2025-05-24 01:39:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/fermented_spider_eye": {
-    "criteria": {
-      "has_spider_eye": "2025-05-24 01:29:50 +0000"
+      "has_flint": "2025-05-24 02:00:40 +0000"
     },
     "done": true
   },
@@ -2369,9 +2305,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+  "minecraft:recipes/transportation/spruce_chest_boat": {
     "criteria": {
-      "has_iron_nugget": "2025-05-24 01:57:07 +0000"
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_chest_raft": {
+    "criteria": {
+      "has_boat": "2025-05-24 04:17:50 +0000"
     },
     "done": true
   },
