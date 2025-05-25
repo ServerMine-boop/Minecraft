@@ -594,7 +594,8 @@
       "cooked_beef": "2025-05-24 01:52:57 +0000",
       "bread": "2025-05-22 17:13:11 +0000",
       "golden_apple": "2025-05-25 01:21:39 +0000",
-      "golden_carrot": "2025-05-24 04:37:59 +0000"
+      "golden_carrot": "2025-05-24 04:37:59 +0000",
+      "carrot": "2025-05-25 02:08:03 +0000"
     },
     "done": false
   },
@@ -741,7 +742,8 @@
       "minecraft:witch": "2025-05-25 00:34:20 +0000",
       "minecraft:wither_skeleton": "2025-05-25 01:04:46 +0000",
       "minecraft:zombie": "2025-05-22 17:36:36 +0000",
-      "minecraft:drowned": "2025-05-24 04:23:29 +0000"
+      "minecraft:drowned": "2025-05-24 04:23:29 +0000",
+      "minecraft:zombie_villager": "2025-05-25 02:06:53 +0000"
     },
     "done": false
   },
@@ -2557,6 +2559,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-25 01:49:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-05-25 01:39:58 +0000"
@@ -2572,6 +2580,12 @@
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-05-25 01:39:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-05-25 02:11:17 +0000"
     },
     "done": true
   },
@@ -2596,6 +2610,18 @@
   "minecraft:recipes/building_blocks/cut_copper_slab_from_cut_copper_stonecutting": {
     "criteria": {
       "has_cut_copper": "2025-05-25 01:41:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-25 01:49:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-05-25 02:08:19 +0000"
     },
     "done": true
   },
@@ -2629,6 +2655,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-05-25 01:46:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-05-25 01:39:16 +0000"
@@ -2653,6 +2685,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-05-25 01:46:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-05-25 01:39:58 +0000"
@@ -2668,6 +2706,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-05-25 01:39:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-25 01:49:38 +0000"
     },
     "done": true
   },
@@ -2719,6 +2763,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-25 01:49:31 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_mechanical_nest": {
     "criteria": {
       "location0": "2025-05-25 00:08:16 +0000"
@@ -2728,6 +2778,12 @@
   "minecraft:recipes/building_blocks/mud_brick_stairs": {
     "criteria": {
       "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-05-25 01:46:47 +0000"
     },
     "done": true
   },
@@ -2767,6 +2823,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-05-25 01:49:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
     "criteria": {
       "has_mud_bricks": "2025-05-25 00:23:13 +0000"
@@ -2791,6 +2853,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2025-05-25 01:49:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2025-05-25 01:39:58 +0000"
@@ -2809,6 +2877,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2025-05-25 01:48:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_copper_stairs": {
     "criteria": {
       "has_cut_copper": "2025-05-25 01:41:53 +0000"
@@ -2821,6 +2895,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oxidized_cut_copper_slab_from_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-05-25 01:46:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-05-25 01:14:19 +0000"
@@ -2830,6 +2910,24 @@
   "minecraft:recipes/building_blocks/cut_copper_stairs_from_cut_copper_stonecutting": {
     "criteria": {
       "has_cut_copper": "2025-05-25 01:41:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-25 01:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2025-05-25 02:12:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_cut_copper": "2025-05-25 01:46:47 +0000"
     },
     "done": true
   },
