@@ -442,3 +442,12 @@ Please check the resource packs that you're missing or unload the packs that the
 [25May2025 00:16:31.888] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
 [25May2025 00:16:58.030] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
 [25May2025 00:16:58.031] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 00:27:29.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Welcome To The Machine]
+[25May2025 00:28:18.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [A Strange Grave Dust]
+[25May2025 00:31:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Mutual Aid]
+[25May2025 00:33:35.335] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 00:33:35.337] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 00:33:41.281] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 00:33:41.283] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 00:33:47.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 died because of Skeleton
+[25May2025 00:33:47.154] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.33.47.dat

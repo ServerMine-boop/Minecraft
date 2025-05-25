@@ -5212,3 +5212,19 @@ Please check the resource packs that you're missing or unload the packs that the
 [25May2025 00:22:57.481] [Server thread/DEBUG] [epicfight/]: [EpicFightMod] No joint named IK-Thigh_R in StaticAnimation efiscompat:animmodels/animations/biped/living/casting_one_hand_below.json
 [25May2025 00:22:57.481] [Server thread/DEBUG] [epicfight/]: [EpicFightMod] No joint named IK-Leg_R in StaticAnimation efiscompat:animmodels/animations/biped/living/casting_one_hand_below.json
 [25May2025 00:22:57.481] [Server thread/DEBUG] [epicfight/]: [EpicFightMod] No joint named IK-Thigh_L in StaticAnimation efiscompat:animmodels/animations/biped/living/casting_one_hand_below.json
+[25May2025 00:24:28.124] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25May2025 00:24:28.136] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25May2025 00:27:29.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Welcome To The Machine]
+[25May2025 00:28:18.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [A Strange Grave Dust]
+[25May2025 00:29:28.120] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25May2025 00:29:28.129] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25May2025 00:31:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Mutual Aid]
+[25May2025 00:33:35.335] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 00:33:35.337] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 00:33:41.281] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 00:33:41.283] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 00:33:47.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 died because of Skeleton
+[25May2025 00:33:47.154] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.33.47.dat
+[25May2025 00:33:47.165] [Server thread/DEBUG] [tombstone/]: A new grave of the player Jhonxd592 was created at position [x:74, y:143, z:5792, dim:minecraft:overworld]
+[25May2025 00:34:28.118] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25May2025 00:34:28.128] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

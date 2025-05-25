@@ -589,6 +589,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-05-22 16:59:14 +0000",
+      "cooked_mutton": "2025-05-25 00:32:41 +0000",
       "chorus_fruit": "2025-05-23 22:55:58 +0000",
       "cooked_beef": "2025-05-24 01:52:57 +0000",
       "bread": "2025-05-22 17:13:11 +0000",
@@ -736,6 +737,7 @@
       "minecraft:magma_cube": "2025-05-22 17:47:51 +0000",
       "minecraft:spider": "2025-05-23 23:32:53 +0000",
       "minecraft:creeper": "2025-05-23 23:04:36 +0000",
+      "minecraft:witch": "2025-05-25 00:34:20 +0000",
       "minecraft:zombie": "2025-05-22 17:36:36 +0000",
       "minecraft:drowned": "2025-05-24 04:23:29 +0000"
     },
@@ -2553,15 +2555,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-05-25 00:24:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-05-25 00:24:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/mutual_aid": {
+    "criteria": {
+      "coded_trigger": "2025-05-25 00:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_brick_slab": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
   "dungeons_arise:find_mechanical_nest": {
     "criteria": {
       "location0": "2025-05-25 00:08:16 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/mud_brick_stairs": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_wood": {
     "criteria": {
       "has_log": "2025-05-25 00:11:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting": {
+    "criteria": {
+      "has_mud_bricks": "2025-05-25 00:23:13 +0000"
     },
     "done": true
   },
