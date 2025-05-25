@@ -87,6 +87,7 @@
     "criteria": {
       "minecraft:beach": "2025-05-22 17:18:00 +0000",
       "minecraft:river": "2025-05-22 17:15:06 +0000",
+      "minecraft:cold_ocean": "2025-05-25 01:27:42 +0000",
       "minecraft:forest": "2025-05-22 16:55:52 +0000",
       "minecraft:plains": "2025-05-22 16:56:37 +0000"
     },
@@ -188,6 +189,7 @@
       "cooked_mutton": "2025-05-25 00:42:58 +0000",
       "apple": "2025-05-22 17:14:18 +0000",
       "bread": "2025-05-22 17:46:00 +0000",
+      "golden_apple": "2025-05-25 01:33:14 +0000",
       "rotten_flesh": "2025-05-25 00:48:59 +0000",
       "cooked_chicken": "2025-05-22 17:03:35 +0000"
     },
@@ -1114,6 +1116,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-05-25 01:40:26 +0000"
+    },
+    "done": true
+  },
   "netherexp:recipes/bone_blocks/bone_fence": {
     "criteria": {
       "has_item": "2025-05-25 00:27:47 +0000"
@@ -1126,9 +1134,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-05-25 01:44:22 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/mud_brick_wall": {
     "criteria": {
       "has_mud_bricks": "2025-05-25 00:49:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-05-25 01:30:34 +0000"
     },
     "done": true
   },
@@ -1342,6 +1362,12 @@
     },
     "done": true
   },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-05-25 01:27:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-05-25 00:27:25 +0000"
@@ -1399,6 +1425,12 @@
   "minecraft:recipes/building_blocks/mud_bricks": {
     "criteria": {
       "has_packed_mud": "2025-05-25 00:49:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2025-05-25 01:28:30 +0000"
     },
     "done": true
   },

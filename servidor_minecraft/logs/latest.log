@@ -781,3 +781,27 @@ Please check the resource packs that you're missing or unload the packs that the
 [25May2025 01:27:24.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
 [25May2025 01:27:44.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Sunken City]
 [25May2025 01:28:00.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:30:03.781] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:30:03.785] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:30:34.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Cover Me with Diamonds]
+[25May2025 01:30:37.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20623, l='ServerLevel[world]', x=-31.52, y=212.00, z=5845.82] died: Gearling withered away whilst fighting Jhonxd592
+[25May2025 01:30:38.483] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20630, l='ServerLevel[world]', x=-30.42, y=212.00, z=5847.47] died: Gearling was slain by Jhonxd592
+[25May2025 01:30:38.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20638, l='ServerLevel[world]', x=-30.48, y=212.00, z=5846.09] died: Gearling was slain by Jhonxd592
+[25May2025 01:32:25.380] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:32:25.384] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:32:37.878] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:32:37.882] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:32:44.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
+[25May2025 01:32:44.503] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.32.44.dat
+[25May2025 01:35:27.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/21665, l='ServerLevel[world]', x=-30.18, y=207.00, z=5771.54] died: Gearling was slain by Jhonxd592
+[25May2025 01:35:29.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/21672, l='ServerLevel[world]', x=-31.23, y=207.00, z=5771.21] died: Gearling was slain by Jhonxd592
+[25May2025 01:37:50.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:45:26.629] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23760, l='ServerLevel[world]', x=115.42, y=212.00, z=5832.18] died: Gearling was slain by Jhonxd592
+[25May2025 01:45:37.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23757, l='ServerLevel[world]', x=115.51, y=211.50, z=5831.47] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:45:37.289] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23790, l='ServerLevel[world]', x=115.97, y=211.50, z=5831.51] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:45:37.291] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23817, l='ServerLevel[world]', x=115.84, y=211.50, z=5831.48] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:46:09.881] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23792, l='ServerLevel[world]', x=113.19, y=207.94, z=5820.34] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:46:17.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23898, l='ServerLevel[world]', x=117.32, y=210.00, z=5828.89] died: Gearling was slain by Jhonxd592
+[25May2025 01:46:17.043] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23838, l='ServerLevel[world]', x=118.56, y=209.27, z=5828.80] died: Gearling was slain by Jhonxd592
+[25May2025 01:46:19.740] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23895, l='ServerLevel[world]', x=116.15, y=209.50, z=5826.56] died: Gearling was slain by Jhonxd592
+[25May2025 01:46:25.333] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23868, l='ServerLevel[world]', x=111.52, y=208.00, z=5817.20] died: Gearling was slain by Jhonxd592
