@@ -738,6 +738,7 @@
       "minecraft:spider": "2025-05-23 23:32:53 +0000",
       "minecraft:creeper": "2025-05-23 23:04:36 +0000",
       "minecraft:witch": "2025-05-25 00:34:20 +0000",
+      "minecraft:wither_skeleton": "2025-05-25 01:04:46 +0000",
       "minecraft:zombie": "2025-05-22 17:36:36 +0000",
       "minecraft:drowned": "2025-05-24 04:23:29 +0000"
     },
@@ -2639,9 +2640,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-25 01:14:19 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/discreet_search": {
     "criteria": {
       "coded_trigger": "2025-05-25 00:46:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2025-05-25 01:14:19 +0000"
     },
     "done": true
   },
