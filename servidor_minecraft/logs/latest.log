@@ -716,3 +716,68 @@ Please check the resource packs that you're missing or unload the packs that the
 [25May2025 01:16:11.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
 [25May2025 01:16:11.435] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.16.11.dat
 [25May2025 01:16:41.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:18:33.929] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:18:33.931] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:18:41.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by KRC
+[25May2025 01:18:41.244] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.18.41.dat
+[25May2025 01:18:41.247] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:20:23.982] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17011, l='ServerLevel[world]', x=24.40, y=207.00, z=5827.25] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:20:23.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17012, l='ServerLevel[world]', x=23.17, y=207.00, z=5825.13] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:20:54.432] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17108, l='ServerLevel[world]', x=25.78, y=213.00, z=5815.75] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:20:57.930] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17110, l='ServerLevel[world]', x=23.87, y=208.00, z=5816.44] died: Gearling hit the ground too hard whilst trying to escape Jhonxd592
+[25May2025 01:21:00.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17131, l='ServerLevel[world]', x=25.83, y=212.00, z=5812.00] died: Gearling was slain by Jhonxd592
+[25May2025 01:21:14.080] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:21:14.083] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:21:15.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17096, l='ServerLevel[world]', x=26.13, y=207.00, z=5820.38] died: Gearling was slain by KRC
+[25May2025 01:21:15.134] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17065, l='ServerLevel[world]', x=26.80, y=207.41, z=5819.40] died: Gearling was slain by KRC
+[25May2025 01:21:15.136] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17048, l='ServerLevel[world]', x=27.85, y=207.00, z=5819.15] died: Gearling was slain by KRC
+[25May2025 01:21:15.782] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17101, l='ServerLevel[world]', x=26.85, y=209.00, z=5818.83] died: Gearling died because of KRC
+[25May2025 01:21:19.830] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17095, l='ServerLevel[world]', x=25.03, y=207.00, z=5818.89] died: Gearling died because of KRC
+[25May2025 01:21:19.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17105, l='ServerLevel[world]', x=26.60, y=207.00, z=5817.71] died: Gearling died because of KRC
+[25May2025 01:21:32.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17097, l='ServerLevel[world]', x=21.22, y=207.00, z=5824.15] died: Gearling was struck by lightning
+[25May2025 01:21:32.737] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17064, l='ServerLevel[world]', x=22.02, y=207.00, z=5824.25] died: Gearling was struck by lightning
+[25May2025 01:21:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC drowned
+[25May2025 01:21:34.089] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.21.34.dat
+[25May2025 01:21:34.092] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:21:34.980] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17028, l='ServerLevel[world]', x=20.79, y=207.00, z=5824.59] died: Gearling was struck by lightning
+[25May2025 01:21:37.980] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:21:37.982] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:21:40.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17062, l='ServerLevel[world]', x=20.90, y=207.00, z=5824.21] died: Gearling was struck by lightning
+[25May2025 01:21:45.882] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17066, l='ServerLevel[world]', x=20.81, y=207.00, z=5824.46] died: Gearling was struck by lightning
+[25May2025 01:21:50.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was struck by lightning
+[25May2025 01:21:50.792] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.21.50.dat
+[25May2025 01:22:07.780] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17693, l='ServerLevel[world]', x=22.64, y=207.00, z=5822.56] died: Gearling was struck by lightning
+[25May2025 01:22:25.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:22:45.885] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17721, l='ServerLevel[world]', x=26.20, y=207.00, z=5826.89] died: Gearling was blown to smithereens by Jhonxd592
+[25May2025 01:23:41.930] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:23:41.932] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:23:53.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Wither Skeleton
+[25May2025 01:23:53.093] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.23.53.dat
+[25May2025 01:23:56.288] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:23:56.291] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:24:18.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
+[25May2025 01:24:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:24:59.387] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:24:59.388] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:25:05.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/18188, l='ServerLevel[world]', x=18.30, y=190.00, z=5824.87] died: Gearling went off with a bang
+[25May2025 01:25:07.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:25:41.430] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:25:41.432] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:25:42.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was struck by lightning
+[25May2025 01:25:42.589] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:25:59.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
+[25May2025 01:26:04.085] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:26:04.092] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:26:10.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
+[25May2025 01:26:10.193] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.26.10.dat
+[25May2025 01:26:11.828] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
+[25May2025 01:26:11.832] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:26:27.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
+[25May2025 01:26:29.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC drowned
+[25May2025 01:26:29.836] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
+[25May2025 01:26:53.980] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[25May2025 01:26:53.985] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[25May2025 01:27:06.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Wither Skeleton
+[25May2025 01:27:24.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
+[25May2025 01:27:44.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Sunken City]
+[25May2025 01:28:00.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592

@@ -593,6 +593,7 @@
       "chorus_fruit": "2025-05-23 22:55:58 +0000",
       "cooked_beef": "2025-05-24 01:52:57 +0000",
       "bread": "2025-05-22 17:13:11 +0000",
+      "golden_apple": "2025-05-25 01:21:39 +0000",
       "golden_carrot": "2025-05-24 04:37:59 +0000"
     },
     "done": false
@@ -2580,15 +2581,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-25 01:23:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cookie": {
     "criteria": {
       "has_cocoa": "2025-05-25 00:24:51 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-05-25 01:14:58 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/mutual_aid": {
     "criteria": {
       "coded_trigger": "2025-05-25 00:31:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-25 01:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-05-25 01:14:58 +0000"
     },
     "done": true
   },
@@ -2601,6 +2626,12 @@
   "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_cut_copper_stonecutting": {
     "criteria": {
       "has_waxed_cut_copper": "2025-05-25 00:54:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-05-25 01:23:23 +0000"
     },
     "done": true
   },
@@ -2655,6 +2686,12 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-05-25 01:14:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-05-25 01:14:58 +0000"
     },
     "done": true
   },
