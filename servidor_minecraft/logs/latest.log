@@ -1,106 +1,105 @@
-[25May2025 00:03:53.967] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[25May2025 00:03:53.971] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[25May2025 00:03:55.559] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[25May2025 00:03:55.609] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[25May2025 00:03:55.941] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[25May2025 00:03:55.942] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25May2025 00:03:55.944] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25May2025 00:03:55.945] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[25May2025 00:03:56.169] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
-[25May2025 00:03:58.423] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25May2025 00:03:58.430] [main/ERROR] [mixin/]: Mixin config mixins.epicironcompat.json does not specify "minVersion" property
-[25May2025 00:03:58.618] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[25May2025 00:03:58.620] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[25May2025 00:03:58.739] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 0 override(s) found
-[25May2025 00:03:58.740] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[25May2025 00:03:58.756] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[25May2025 00:03:58.876] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 101 options available, 0 override(s) found
-[25May2025 00:03:59.067] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
-[25May2025 00:03:59.118] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
-[25May2025 00:03:59.607] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:03:59.625] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:03:59.967] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[25May2025 00:03:59.968] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[25May2025 00:03:59.968] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[25May2025 00:04:01.455] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[25May2025 00:04:01.455] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[25May2025 00:04:01.455] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[25May2025 00:04:01.456] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[25May2025 00:04:01.456] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[25May2025 00:04:01.456] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[25May2025 00:04:01.458] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[25May2025 00:04:01.458] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[25May2025 00:04:01.459] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[25May2025 00:04:01.460] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[25May2025 00:04:01.622] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[25May2025 00:04:02.097] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.47 s after launch)
-[25May2025 00:04:02.210] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25May2025 00:04:02.211] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25May2025 00:04:02.352] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[25May2025 00:04:02.352] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
-[25May2025 00:04:02.960] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:04:02.962] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:04:04.382] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2282 milliseconds
-[25May2025 00:04:05.036] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:04:05.037] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
-[25May2025 00:04:05.104] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[25May2025 00:04:05.104] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
-[25May2025 00:04:06.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[25May2025 00:04:06.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[25May2025 00:04:06.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[25May2025 00:04:06.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
-[25May2025 00:04:07.170] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[27May2025 18:40:09.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[27May2025 18:40:09.993] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[27May2025 18:40:11.694] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[27May2025 18:40:11.751] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[27May2025 18:40:12.068] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 18:40:12.070] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 18:40:12.071] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 18:40:12.073] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27May2025 18:40:12.271] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[27May2025 18:40:14.507] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27May2025 18:40:14.512] [main/ERROR] [mixin/]: Mixin config mixins.epicironcompat.json does not specify "minVersion" property
+[27May2025 18:40:14.659] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[27May2025 18:40:14.661] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27May2025 18:40:14.754] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.21.0+mc1.20.1: 88 options available, 0 override(s) found
+[27May2025 18:40:14.755] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[27May2025 18:40:14.768] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[27May2025 18:40:14.887] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 101 options available, 0 override(s) found
+[27May2025 18:40:15.054] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[27May2025 18:40:15.105] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[27May2025 18:40:15.590] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:15.613] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:15.999] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[27May2025 18:40:16.000] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[27May2025 18:40:16.000] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[27May2025 18:40:17.288] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[27May2025 18:40:17.288] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[27May2025 18:40:17.288] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[27May2025 18:40:17.290] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[27May2025 18:40:17.290] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[27May2025 18:40:17.290] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[27May2025 18:40:17.291] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[27May2025 18:40:17.292] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[27May2025 18:40:17.293] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[27May2025 18:40:17.294] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[27May2025 18:40:17.468] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27May2025 18:40:17.961] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (10.30 s after launch)
+[27May2025 18:40:18.062] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27May2025 18:40:18.063] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27May2025 18:40:18.223] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[27May2025 18:40:18.223] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[27May2025 18:40:18.823] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:18.824] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:20.087] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2121 milliseconds
+[27May2025 18:40:20.742] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:20.743] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[27May2025 18:40:20.807] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[27May2025 18:40:20.807] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:MixinWitherBoss should be final
+[27May2025 18:40:21.879] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[27May2025 18:40:21.879] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[27May2025 18:40:21.879] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[27May2025 18:40:21.880] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[27May2025 18:40:22.780] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[25May2025 00:04:08.005] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[25May2025 00:04:08.006] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[25May2025 00:04:08.784] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
-[25May2025 00:04:09.306] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[25May2025 00:04:09.316] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[25May2025 00:04:09.413] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
-[25May2025 00:04:12.311] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[25May2025 00:04:12.312] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
-[25May2025 00:04:13.128] [main/INFO] [net.corruptdog.cdm.main.CDmoveset/]: buildSkillEvent
-[25May2025 00:04:13.208] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
-[25May2025 00:04:13.239] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[25May2025 00:04:13.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.299] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.300] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.301] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
-[25May2025 00:04:13.531] [main/INFO] [com.yukami.epicironcompat.config.CommonConfig/]: Config loaded! [irons_spellbooks:blood_staff, irons_spellbooks:ice_staff, irons_spellbooks:graybeard_staff, irons_spellbooks:artificer_cane, irons_spellbooks:lightning_rod, irons_spellbooks:magehunter, irons_spellbooks:keeper_flamberge, irons_spellbooks:spellbreaker, irons_spellbooks:amethyst_rapier, irons_spellbooks:hither_thither_wand]
-[25May2025 00:04:13.680] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[25May2025 00:04:13.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[25May2025 00:04:14.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
-[25May2025 00:04:14.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[25May2025 00:04:14.126] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.36 Target: null
-[25May2025 00:04:14.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25May2025 00:04:14.153] [main/INFO] [journeymap/]: Initializing Packet Registries
-[25May2025 00:04:14.185] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[25May2025 00:04:14.185] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[25May2025 00:04:14.186] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[25May2025 00:04:14.186] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[25May2025 00:04:14.212] [main/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Starting to register Curios item...
-[25May2025 00:04:14.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[25May2025 00:04:14.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
-[25May2025 00:04:14.747] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
-[25May2025 00:04:14.747] [modloading-worker-0/INFO] [com.esm.nightmare.NightmareMain/]: Got IMC []
-[25May2025 00:04:14.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
-[25May2025 00:04:14.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[25May2025 00:04:14.836] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.4 Target: 8.9.5
-[25May2025 00:04:14.837] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Starting version check at https://api.modrinth.com/updates/rubidium-extra/forge_updates.json
-[25May2025 00:04:14.848] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
-[25May2025 00:04:15.105] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Found status: UP_TO_DATE Current: 0.5.4.4+mc1.20.1-build.131 Target: null
-[25May2025 00:04:15.446] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25May2025 00:04:15.765] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/assets/.mcassetsroot' uses unexpected schema
-[25May2025 00:04:15.765] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/data/.mcassetsroot' uses unexpected schema
-[25May2025 00:04:18.322] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag traveloptics:magic_sword_weapon_type as it is missing following references: minecraft: (from traveloptics-4.4.0-1.20.1.jar)
-[25May2025 00:04:18.350] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.9.4 MC 1.20.1.jar)
-[25May2025 00:04:19.023] [Worker-Main-2/INFO] [epicfight/]: Register animations from cdmoveset
-[25May2025 00:04:19.352] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dungeons_and_combat:chests/blazing_fortress_loot
+[27May2025 18:40:23.627] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[27May2025 18:40:23.631] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[27May2025 18:40:24.452] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.5.2+1.20.1!
+[27May2025 18:40:24.967] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[27May2025 18:40:24.993] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[27May2025 18:40:25.070] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[27May2025 18:40:27.927] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[27May2025 18:40:27.927] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[27May2025 18:40:28.828] [main/INFO] [net.corruptdog.cdm.main.CDmoveset/]: buildSkillEvent
+[27May2025 18:40:28.901] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[27May2025 18:40:28.932] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[27May2025 18:40:28.995] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.995] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.995] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.995] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.995] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:28.996] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[27May2025 18:40:29.225] [main/INFO] [com.yukami.epicironcompat.config.CommonConfig/]: Config loaded! [irons_spellbooks:blood_staff, irons_spellbooks:ice_staff, irons_spellbooks:graybeard_staff, irons_spellbooks:artificer_cane, irons_spellbooks:lightning_rod, irons_spellbooks:magehunter, irons_spellbooks:keeper_flamberge, irons_spellbooks:spellbreaker, irons_spellbooks:amethyst_rapier, irons_spellbooks:hither_thither_wand]
+[27May2025 18:40:29.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[27May2025 18:40:29.806] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[27May2025 18:40:29.807] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[27May2025 18:40:29.848] [main/INFO] [journeymap/]: Initializing Packet Registries
+[27May2025 18:40:29.858] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.36 Target: null
+[27May2025 18:40:29.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27May2025 18:40:29.878] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[27May2025 18:40:29.878] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[27May2025 18:40:29.878] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[27May2025 18:40:29.878] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[27May2025 18:40:29.918] [main/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Starting to register Curios item...
+[27May2025 18:40:30.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[27May2025 18:40:30.086] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[27May2025 18:40:30.362] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[27May2025 18:40:30.363] [modloading-worker-0/INFO] [com.esm.nightmare.NightmareMain/]: Got IMC []
+[27May2025 18:40:30.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[27May2025 18:40:30.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[27May2025 18:40:30.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.4 Target: 8.9.5
+[27May2025 18:40:30.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Starting version check at https://api.modrinth.com/updates/rubidium-extra/forge_updates.json
+[27May2025 18:40:30.462] [modloading-worker-0/INFO] [com.eeeab.eeeabsmobs.EEEABMobs/]: Registering custom criteria trigger...
+[27May2025 18:40:30.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Found status: UP_TO_DATE Current: 0.5.4.4+mc1.20.1-build.131 Target: null
+[27May2025 18:40:31.045] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27May2025 18:40:31.369] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/assets/.mcassetsroot' uses unexpected schema
+[27May2025 18:40:31.369] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23209!/data/.mcassetsroot' uses unexpected schema
+[27May2025 18:40:33.967] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag traveloptics:magic_sword_weapon_type as it is missing following references: minecraft: (from traveloptics-4.4.0-1.20.1.jar)
+[27May2025 18:40:34.038] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag legendary_monsters:ancient_stronghold_biomes as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.9.4 MC 1.20.1.jar)
+[27May2025 18:40:34.834] [Worker-Main-1/INFO] [epicfight/]: Register animations from cdmoveset
+[27May2025 18:40:35.209] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:dungeons_and_combat:chests/blazing_fortress_loot
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'dungeons_and_combat:deleted_mod_element'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23209!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -152,948 +151,77 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[25May2025 00:04:21.153] [Worker-Main-2/INFO] [epicfight/]: Register animations from efiscompat
-[25May2025 00:04:21.190] [Worker-Main-2/INFO] [epicfight/]: Register animations from epicfight
-[25May2025 00:04:21.505] [Worker-Main-2/INFO] [epicfight/]: Register animations from wom
-[25May2025 00:04:22.615] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[25May2025 00:04:22.616] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[25May2025 00:04:22.616] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[25May2025 00:04:22.640] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_molten_bone_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
-[25May2025 00:04:22.653] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:augment_bruteforce_legendary: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_epic'
-[25May2025 00:04:22.663] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
-[25May2025 00:04:22.667] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:amethyst_bless/augment_bruteforce_blessed: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_mythic'
-[25May2025 00:04:22.673] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
-[25May2025 00:04:22.676] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
-[25May2025 00:04:22.678] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:augment_infusion/augment_bruteforce_wild: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_legendary'
-[25May2025 00:04:22.680] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
-[25May2025 00:04:22.692] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_blazing_halberd: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
-[25May2025 00:04:22.699] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[25May2025 00:04:22.832] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2228 advancements
-[25May2025 00:04:22.839] [main/INFO] [placebo/]: Registered 0 additional recipes.
-[25May2025 00:04:23.117] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[25May2025 00:04:23.121] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[25May2025 00:04:23.122] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[25May2025 00:04:23.125] [main/WARN] [epicfight/]: Skill cdmoveset:fatalslash doesn't exist in the registry.
-[25May2025 00:04:23.126] [main/WARN] [epicfight/]: Skill cdmoveset:sstep doesn't exist in the registry.
-[25May2025 00:04:23.167] [main/INFO] [placebo/]: Registered 0 gear_sets.
-[25May2025 00:04:23.407] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[25May2025 00:04:23.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25May2025 00:04:23.408] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25May2025 00:04:23.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25May2025 00:04:23.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25May2025 00:04:23.560] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25May2025 00:04:23.633] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25May2025 00:04:23.633] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25May2025 00:04:23.633] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25May2025 00:04:23.634] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25May2025 00:04:23.645] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: dynamicview.json
-[25May2025 00:04:23.649] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[25May2025 00:04:23.770] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
-[25May2025 00:04:23.771] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
-[25May2025 00:04:23.773] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25May2025 00:04:23.820] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping servercore.common.mixins.json:optimizations.ticking.chunk.cache.ServerChunkCacheMixin->@Redirect::servercore$noList(I)Ljava/util/ArrayList; with priority 900, already redirected by canary.mixins.json:alloc.chunk_ticking.ServerChunkCacheMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; with priority 1000
-[25May2025 00:04:25.224] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/sounds/SoundInstance for invalid dist DEDICATED_SERVER
-[25May2025 00:04:25.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25May2025 00:04:25.281] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
-[25May2025 00:04:27.451] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25May2025 00:04:27.452] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25May2025 00:04:27.453] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25May2025 00:04:27.453] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25May2025 00:04:27.453] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25May2025 00:04:28.017] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2742 ms
-[25May2025 00:04:28.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.370s)! For help, type "help"
-[25May2025 00:04:28.065] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25May2025 00:04:28.118] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.487 seconds to load
-[25May2025 00:04:38.849] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jhonxd592[/127.33.255.94:52013] logged in with entity id 1044 at (258.6585489003225, 68.0, 5682.562957303241)
-[25May2025 00:04:38.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 joined the game
-[25May2025 00:05:08.897] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=-52, z=-702}
-[25May2025 00:05:08.935] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:05:12.870] [Worker-Main-3/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.602844f,range:8,source:{pos:[I;-404,-59,-499],type:"minecraft:block"}}]
-[25May2025 00:05:13.030] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=-51, z=-548}
-[25May2025 00:05:13.031] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-54, z=-542}
-[25May2025 00:05:13.031] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-53, z=-542}
-[25May2025 00:05:13.050] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-373, y=-58, z=-499}
-[25May2025 00:05:13.051] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=-56, z=-571}
-[25May2025 00:05:13.052] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:05:13.071] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-53, z=-786}
-[25May2025 00:05:13.072] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-58, z=-785}
-[25May2025 00:05:13.072] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-278, y=-58, z=-787}
-[25May2025 00:05:13.073] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-503}
-[25May2025 00:05:13.073] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-359, y=-58, z=-502}
-[25May2025 00:05:13.345] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-58, z=-502}
-[25May2025 00:05:13.358] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-497}
-[25May2025 00:05:13.365] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-373, y=-58, z=-499}
-[25May2025 00:05:17.759] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-221, y=-52, z=-702}
-[25May2025 00:05:17.798] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=-58, z=-497}
-[25May2025 00:05:17.806] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-497}
-[25May2025 00:05:17.819] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-53, z=-786}
-[25May2025 00:05:17.819] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-58, z=-787}
-[25May2025 00:05:17.820] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-292, y=-58, z=-785}
-[25May2025 00:05:17.820] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-247, y=-58, z=-588}
-[25May2025 00:05:17.821] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-359, y=-58, z=-502}
-[25May2025 00:05:17.925] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=-57, z=-497}
-[25May2025 00:05:17.926] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=-57, z=-496}
-[25May2025 00:05:17.935] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=-58, z=-497}
-[25May2025 00:05:17.956] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-373, y=-58, z=-499}
-[25May2025 00:05:24.400] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-234, y=-52, z=-702}
-[25May2025 00:05:24.411] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-427, y=-52, z=-408}
-[25May2025 00:05:24.411] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-428, y=-52, z=-407}
-[25May2025 00:05:24.412] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-429, y=-52, z=-408}
-[25May2025 00:05:24.412] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-428, y=-52, z=-409}
-[25May2025 00:05:24.412] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-432, y=-52, z=-404}
-[25May2025 00:05:24.412] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-432, y=-52, z=-402}
-[25May2025 00:05:28.018] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-58, z=-502}
-[25May2025 00:05:28.107] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:05:28.107] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:05:28.113] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-503}
-[25May2025 00:05:30.167] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-422, y=-52, z=-391}
-[25May2025 00:05:30.845] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-346, y=-57, z=-497}
-[25May2025 00:05:30.859] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-350, y=-58, z=-499}
-[25May2025 00:05:30.859] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=-58, z=-499}
-[25May2025 00:05:30.875] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-52, z=-419}
-[25May2025 00:05:30.876] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-424, y=-52, z=-422}
-[25May2025 00:05:30.881] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-54, z=-542}
-[25May2025 00:05:30.882] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-53, z=-542}
-[25May2025 00:05:30.895] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=-58, z=-497}
-[25May2025 00:05:30.896] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:05:30.897] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:05:31.016] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.602844f,range:8,source:{pos:[I;-404,-59,-499],type:"minecraft:block"}}]
-[25May2025 00:05:31.016] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-373, y=-58, z=-499}
-[25May2025 00:05:31.035] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=-51, z=-548}
-[25May2025 00:05:31.062] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-497}
-[25May2025 00:05:31.066] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=-57, z=-497}
-[25May2025 00:05:31.066] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=-57, z=-496}
-[25May2025 00:05:31.419] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-414, y=-52, z=-427}
-[25May2025 00:05:32.912] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KRC[/127.252.66.104:38703] logged in with entity id 1685 at (1058.300000011921, 229.0, 51.81754030984197)
-[25May2025 00:05:32.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC joined the game
-[25May2025 00:05:33.378] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-407}
-[25May2025 00:05:33.378] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-409}
-[25May2025 00:05:33.378] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=-52, z=-397}
-[25May2025 00:05:33.379] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=-52, z=-395}
-[25May2025 00:05:33.379] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=-52, z=-394}
-[25May2025 00:05:33.382] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:05:33.399] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:05:33.399] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:05:33.400] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-349, y=-58, z=-497}
-[25May2025 00:05:33.401] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=-57, z=-497}
-[25May2025 00:05:33.401] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=-57, z=-496}
-[25May2025 00:05:33.480] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-52, z=-425}
-[25May2025 00:05:33.481] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=-52, z=-422}
-[25May2025 00:05:33.481] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-418}
-[25May2025 00:05:33.481] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=-52, z=-416}
-[25May2025 00:05:33.484] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:05:34.401] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KRC lost connection: Below animations are missing or don't exist in the server
-
-efiscompat:biped/living/casting_one_hand_buff
-efiscompat:biped/living/chanting_one_hand_staff_left
-efiscompat:biped/living/casting_one_hand_staff_top_right
-efiscompat:biped/living/chanting_two_hand_top
-efiscompat:biped/living/casting_one_hand_staff_front_left
-efiscompat:biped/living/continuous_two_hand_front
-efiscompat:biped/living/casting_one_hand_staff_top_left
-efiscompat:biped/living/casting_two_hand_top
-efiscompat:biped/living/casting_two_hand_staff_top
-efiscompat:biped/living/casting_one_hand_top
-efiscompat:biped/living/chanting_two_hand_staff_top
-efiscompat:biped/living/chanting_one_hand_top
-efiscompat:biped/living/casting_one_hand_below
-efiscompat:biped/living/casting_two_hand_back
-efiscompat:biped/living/casting_one_hand_inward
-efiscompat:biped/living/casting_one_hand_staff_front_right
-efiscompat:biped/living/chanting_one_hand_staff_right
-efiscompat:biped/living/chanting_two_hand_back
-efiscompat:biped/living/chanting_one_hand_front
-
-Please check the resource packs that you're missing or unload the packs that the server doesn't have
-[25May2025 00:05:34.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC left the game
-[25May2025 00:05:36.332] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-359, y=-58, z=-502}
-[25May2025 00:05:36.744] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-52, z=-426}
-[25May2025 00:05:42.301] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-422, y=-52, z=-391}
-[25May2025 00:05:42.418] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=-52, z=-409}
-[25May2025 00:05:42.418] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=-52, z=-408}
-[25May2025 00:05:42.418] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=-52, z=-400}
-[25May2025 00:05:50.645] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KRC[/127.252.66.104:57687] logged in with entity id 1981 at (1058.300000011921, 229.0, 51.81754030984197)
-[25May2025 00:05:50.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC joined the game
-[25May2025 00:05:50.954] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KRC lost connection: Below animations are missing or don't exist in the server
-
-efiscompat:biped/living/casting_one_hand_buff
-efiscompat:biped/living/chanting_one_hand_staff_left
-efiscompat:biped/living/casting_one_hand_staff_top_right
-efiscompat:biped/living/chanting_two_hand_top
-efiscompat:biped/living/casting_one_hand_staff_front_left
-efiscompat:biped/living/continuous_two_hand_front
-efiscompat:biped/living/casting_one_hand_staff_top_left
-efiscompat:biped/living/casting_two_hand_top
-efiscompat:biped/living/casting_two_hand_staff_top
-efiscompat:biped/living/casting_one_hand_top
-efiscompat:biped/living/chanting_two_hand_staff_top
-efiscompat:biped/living/chanting_one_hand_top
-efiscompat:biped/living/casting_one_hand_below
-efiscompat:biped/living/casting_two_hand_back
-efiscompat:biped/living/casting_one_hand_inward
-efiscompat:biped/living/casting_one_hand_staff_front_right
-efiscompat:biped/living/chanting_one_hand_staff_right
-efiscompat:biped/living/chanting_two_hand_back
-efiscompat:biped/living/chanting_one_hand_front
-
-Please check the resource packs that you're missing or unload the packs that the server doesn't have
-[25May2025 00:05:50.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC left the game
-[25May2025 00:06:02.192] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KRC[/127.252.66.104:54917] logged in with entity id 2071 at (1058.300000011921, 229.0, 51.81754030984197)
-[25May2025 00:06:02.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC joined the game
-[25May2025 00:06:02.494] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KRC lost connection: Below animations are missing or don't exist in the server
-
-efiscompat:biped/living/casting_one_hand_buff
-efiscompat:biped/living/chanting_one_hand_staff_left
-efiscompat:biped/living/casting_one_hand_staff_top_right
-efiscompat:biped/living/chanting_two_hand_top
-efiscompat:biped/living/casting_one_hand_staff_front_left
-efiscompat:biped/living/continuous_two_hand_front
-efiscompat:biped/living/casting_one_hand_staff_top_left
-efiscompat:biped/living/casting_two_hand_top
-efiscompat:biped/living/casting_two_hand_staff_top
-efiscompat:biped/living/casting_one_hand_top
-efiscompat:biped/living/chanting_two_hand_staff_top
-efiscompat:biped/living/chanting_one_hand_top
-efiscompat:biped/living/casting_one_hand_below
-efiscompat:biped/living/casting_two_hand_back
-efiscompat:biped/living/casting_one_hand_inward
-efiscompat:biped/living/casting_one_hand_staff_front_right
-efiscompat:biped/living/chanting_one_hand_staff_right
-efiscompat:biped/living/chanting_two_hand_back
-efiscompat:biped/living/chanting_one_hand_front
-
-Please check the resource packs that you're missing or unload the packs that the server doesn't have
-[25May2025 00:06:02.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC left the game
-[25May2025 00:06:09.773] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-407, y=-57, z=-497}
-[25May2025 00:06:09.774] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-406, y=-57, z=-496}
-[25May2025 00:06:09.789] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-362, y=-51, z=-548}
-[25May2025 00:06:09.802] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-404, y=-52, z=-397}
-[25May2025 00:06:09.803] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-399, y=-52, z=-395}
-[25May2025 00:06:09.803] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=-52, z=-394}
-[25May2025 00:06:09.851] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-407}
-[25May2025 00:06:09.851] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=-52, z=-408}
-[25May2025 00:06:09.851] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-393, y=-52, z=-400}
-[25May2025 00:06:09.901] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-245, y=-57, z=-597}
-[25May2025 00:06:09.911] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-427, y=-52, z=-408}
-[25May2025 00:06:09.911] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-428, y=-52, z=-407}
-[25May2025 00:06:09.912] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-429, y=-52, z=-408}
-[25May2025 00:06:09.955] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-432, y=-52, z=-404}
-[25May2025 00:06:09.956] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-432, y=-52, z=-402}
-[25May2025 00:06:11.267] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=-57, z=-753}
-[25May2025 00:06:11.268] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=-56, z=-754}
-[25May2025 00:06:11.268] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-322, y=-56, z=-753}
-[25May2025 00:06:11.268] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-322, y=-56, z=-755}
-[25May2025 00:06:11.269] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-323, y=-57, z=-751}
-[25May2025 00:06:11.269] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-322, y=-55, z=-752}
-[25May2025 00:06:11.371] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-409, y=-57, z=-497}
-[25May2025 00:06:11.371] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-57, z=-496}
-[25May2025 00:06:11.561] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-418}
-[25May2025 00:06:11.561] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-396, y=-52, z=-409}
-[25May2025 00:06:11.561] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-394, y=-52, z=-409}
-[25May2025 00:06:11.562] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-395, y=-52, z=-416}
-[25May2025 00:06:11.685] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-54, z=-542}
-[25May2025 00:06:11.686] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-53, z=-542}
-[25May2025 00:06:11.697] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-400, y=-52, z=-422}
-[25May2025 00:06:11.816] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-420, y=-52, z=-419}
-[25May2025 00:06:11.816] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-424, y=-52, z=-422}
-[25May2025 00:06:11.817] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-428, y=-52, z=-409}
-[25May2025 00:06:12.152] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkSensorBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:3.602844f,range:8,source:{pos:[I;-404,-59,-499],type:"minecraft:block"}}]
-[25May2025 00:06:24.341] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KRC[/127.252.66.104:37885] logged in with entity id 2267 at (1058.300000011921, 229.0, 51.81754030984197)
-[25May2025 00:06:24.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC joined the game
-[25May2025 00:06:24.645] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KRC lost connection: Below animations are missing or don't exist in the server
-
-efiscompat:biped/living/casting_one_hand_buff
-efiscompat:biped/living/chanting_one_hand_staff_left
-efiscompat:biped/living/casting_one_hand_staff_top_right
-efiscompat:biped/living/chanting_two_hand_top
-efiscompat:biped/living/casting_one_hand_staff_front_left
-efiscompat:biped/living/continuous_two_hand_front
-efiscompat:biped/living/casting_one_hand_staff_top_left
-efiscompat:biped/living/casting_two_hand_top
-efiscompat:biped/living/casting_two_hand_staff_top
-efiscompat:biped/living/casting_one_hand_top
-efiscompat:biped/living/chanting_two_hand_staff_top
-efiscompat:biped/living/chanting_one_hand_top
-efiscompat:biped/living/casting_one_hand_below
-efiscompat:biped/living/casting_two_hand_back
-efiscompat:biped/living/casting_one_hand_inward
-efiscompat:biped/living/casting_one_hand_staff_front_right
-efiscompat:biped/living/chanting_one_hand_staff_right
-efiscompat:biped/living/chanting_two_hand_back
-efiscompat:biped/living/chanting_one_hand_front
-
-Please check the resource packs that you're missing or unload the packs that the server doesn't have
-[25May2025 00:06:24.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC left the game
-[25May2025 00:06:33.760] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-414, y=-52, z=-427}
-[25May2025 00:06:33.824] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-52, z=-425}
-[25May2025 00:06:33.825] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-410, y=-52, z=-426}
-[25May2025 00:08:16.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Welcome To The Machine]
-[25May2025 00:09:21.140] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@71ad419a[id=<null>,name=KRC,properties={},legacy=false] (/127.252.66.104:42667) lost connection: Disconnected
-[25May2025 00:09:24.988] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KRC[/127.252.66.104:36655] logged in with entity id 2914 at (1058.300000011921, 229.0, 51.81754030984197)
-[25May2025 00:09:24.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC joined the game
-[25May2025 00:10:13.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 00:10:55.991] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:10:56.013] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:13:42.584] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:13:42.601] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:16:19.383] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:16:19.396] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:16:31.887] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:16:31.888] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:16:58.030] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:16:58.031] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:27:29.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Welcome To The Machine]
-[25May2025 00:28:18.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [A Strange Grave Dust]
-[25May2025 00:31:04.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Mutual Aid]
-[25May2025 00:33:35.335] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:33:35.337] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:33:41.281] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:33:41.283] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:33:47.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 died because of Skeleton
-[25May2025 00:33:47.154] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.33.47.dat
-[25May2025 00:38:44.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Magery]
-[25May2025 00:42:35.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Diamonds!]
-[25May2025 00:43:48.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Ol' Betsy]
-[25May2025 00:44:38.281] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:44:38.286] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:44:38.538] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7951, l='ServerLevel[world]', x=62.15, y=171.00, z=5824.39] died: Gearling was slain by Jhonxd592
-[25May2025 00:44:39.180] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7960, l='ServerLevel[world]', x=62.67, y=170.00, z=5822.91] died: Gearling was slain by Jhonxd592
-[25May2025 00:44:42.683] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/8000, l='ServerLevel[world]', x=61.52, y=156.06, z=5820.59] died: Gearling was doomed to fall by Jhonxd592
-[25May2025 00:44:43.232] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/8020, l='ServerLevel[world]', x=62.42, y=156.06, z=5821.01] died: Gearling fell from a high place
-[25May2025 00:44:43.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/8014, l='ServerLevel[world]', x=62.05, y=156.06, z=5820.77] died: Gearling fell from a high place
-[25May2025 00:44:44.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7945, l='ServerLevel[world]', x=62.51, y=156.06, z=5820.77] died: Gearling fell from a high place
-[25May2025 00:44:44.378] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7949, l='ServerLevel[world]', x=62.59, y=156.06, z=5820.77] died: Gearling fell from a high place
-[25May2025 00:44:50.683] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7974, l='ServerLevel[world]', x=58.49, y=162.06, z=5822.66] died: Gearling was slain by KRC
-[25May2025 00:44:50.686] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/8004, l='ServerLevel[world]', x=58.49, y=162.06, z=5822.41] died: Gearling was slain by KRC
-[25May2025 00:44:53.835] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:44:53.840] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:44:54.634] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/7976, l='ServerLevel[world]', x=58.81, y=162.06, z=5820.26] died: Gearling was slain by KRC
-[25May2025 00:45:04.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 00:45:04.110] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.45.04.dat
-[25May2025 00:45:24.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has reached the goal [Strong or Careful]
-[25May2025 00:45:24.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC blew up
-[25May2025 00:45:24.399] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:45:55.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 00:46:13.629] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/8614, l='ServerLevel[world]', x=65.42, y=156.00, z=5824.76] died: Gearling fell from a high place
-[25May2025 00:46:32.890] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:46:32.910] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:46:39.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was blown up by Creeper
-[25May2025 00:46:39.093] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.46.39.dat
-[25May2025 00:46:59.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has reached the goal [Discreet Search]
-[25May2025 00:47:27.093] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/911, l='ServerLevel[world]', x=162.52, y=66.00, z=103.32] died, message: 'Villager was blown up by Creeper'
-[25May2025 00:47:40.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 00:48:34.172] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:48:34.172] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideListLength = 7
-[25May2025 00:48:34.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideList = creeper,spider,skeleton,chicken,pig,skeleton horse,zombie horse,
-[25May2025 00:48:34.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Jockey List Length = 7
-[25May2025 00:48:34.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: JockeyList = creeper,skeleton,zombie,pillager,vindicator,witch,zombified piglin,
-[25May2025 00:48:34.173] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=37, y=116, z=5728}
-[25May2025 00:48:44.273] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:48:44.273] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-5, y=125, z=5785}
-[25May2025 00:48:45.322] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:48:45.322] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=139, y=50, z=5828}
-[25May2025 00:48:49.670] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:48:49.670] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=19, y=43, z=5761}
-[25May2025 00:49:00.472] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:00.472] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=19, y=132, z=5711}
-[25May2025 00:49:23.672] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:23.672] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=47, y=115, z=5719}
-[25May2025 00:49:33.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:33.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=44, y=43, z=5782}
-[25May2025 00:49:34.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:34.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=27, y=161, z=5809}
-[25May2025 00:49:34.372] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:34.372] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=29, y=161, z=5807}
-[25May2025 00:49:42.170] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:42.170] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-1, y=125, z=5769}
-[25May2025 00:49:45.073] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:49:45.073] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=74, y=246, z=5829}
-[25May2025 00:50:00.771] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:00.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=48, y=42, z=5788}
-[25May2025 00:50:06.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:06.922] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=60, y=42, z=5846}
-[25May2025 00:50:16.722] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:29.634] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:50:29.637] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:50:33.133] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:50:33.136] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:50:40.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 00:50:40.510] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.50.40.dat
-[25May2025 00:50:41.422] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:41.422] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=58, y=140, z=5751}
-[25May2025 00:50:43.022] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:43.023] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=99, y=32, z=5783}
-[25May2025 00:50:48.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:48.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=33, y=52, z=5740}
-[25May2025 00:50:53.323] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:50:53.323] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=47, y=134, z=5718}
-[25May2025 00:51:05.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
-[25May2025 00:51:05.159] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-00.51.05.dat
-[25May2025 00:51:09.222] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:09.222] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=61, y=30, z=5778}
-[25May2025 00:51:13.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:13.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=52, y=51, z=5733}
-[25May2025 00:51:15.842] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10290, l='ServerLevel[world]', x=65.81, y=173.00, z=5824.60] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:17.887] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10461, l='ServerLevel[world]', x=63.69, y=173.00, z=5824.54] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:18.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:18.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=1, y=86, z=5825}
-[25May2025 00:51:23.244] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10449, l='ServerLevel[world]', x=62.69, y=173.91, z=5827.29] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:51:23.247] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10519, l='ServerLevel[world]', x=62.65, y=173.91, z=5827.44] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:51:23.256] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10327, l='ServerLevel[world]', x=62.95, y=173.91, z=5827.84] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:51:27.341] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10266, l='ServerLevel[world]', x=65.05, y=173.00, z=5830.93] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:28.233] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:51:28.238] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:51:28.386] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10322, l='ServerLevel[world]', x=65.48, y=172.50, z=5831.28] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:34.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 00:51:35.006] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.51.34.dat
-[25May2025 00:51:36.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:36.522] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=140, y=53, z=5818}
-[25May2025 00:51:42.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:42.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=66, y=54, z=5758}
-[25May2025 00:51:43.422] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:43.422] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=12, y=110, z=5703}
-[25May2025 00:51:50.821] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:51:53.038] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10576, l='ServerLevel[world]', x=67.62, y=171.50, z=5830.83] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:53.881] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10296, l='ServerLevel[world]', x=67.61, y=171.50, z=5831.38] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:54.538] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10260, l='ServerLevel[world]', x=67.07, y=172.00, z=5831.49] died: Gearling was slain by Jhonxd592
-[25May2025 00:51:59.938] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10558, l='ServerLevel[world]', x=64.24, y=173.00, z=5829.46] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:02.938] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:02.938] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=58, y=179, z=5822}
-[25May2025 00:52:04.534] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:04.535] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=58, y=179, z=5821}
-[25May2025 00:52:08.634] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10541, l='ServerLevel[world]', x=62.84, y=173.00, z=5828.62] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:09.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:09.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=75, y=62, z=5763}
-[25May2025 00:52:11.722] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:16.882] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10325, l='ServerLevel[world]', x=67.75, y=173.00, z=5823.36] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:23.082] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10796, l='ServerLevel[world]', x=73.48, y=173.00, z=5826.37] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:23.084] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10794, l='ServerLevel[world]', x=73.49, y=173.00, z=5825.75] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:27.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:36.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10910, l='ServerLevel[world]', x=61.85, y=178.83, z=5829.70] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:52:38.336] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10912, l='ServerLevel[world]', x=61.71, y=178.00, z=5829.71] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:39.137] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10927, l='ServerLevel[world]', x=61.26, y=178.00, z=5829.16] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:41.536] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10942, l='ServerLevel[world]', x=61.49, y=178.00, z=5827.76] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:43.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10959, l='ServerLevel[world]', x=61.58, y=178.00, z=5828.55] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:44.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:44.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=58, y=41, z=5844}
-[25May2025 00:52:46.144] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10950, l='ServerLevel[world]', x=61.18, y=178.00, z=5828.86] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:51.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10969, l='ServerLevel[world]', x=61.91, y=178.00, z=5829.71] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:51.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10978, l='ServerLevel[world]', x=61.75, y=178.00, z=5829.79] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:51.239] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10987, l='ServerLevel[world]', x=61.71, y=178.00, z=5829.73] died: Gearling was caught by Jhonxd592's fangs
-[25May2025 00:52:51.573] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:51.573] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=129, y=83, z=5851}
-[25May2025 00:52:51.573] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:51.574] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=129, y=83, z=5850}
-[25May2025 00:52:52.982] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10992, l='ServerLevel[world]', x=60.25, y=178.00, z=5828.17] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:53.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10994, l='ServerLevel[world]', x=61.40, y=178.00, z=5827.37] died: Gearling was slain by Jhonxd592
-[25May2025 00:52:58.138] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:52:58.139] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=57, y=179, z=5822}
-[25May2025 00:53:02.437] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 00:53:02.439] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 00:53:08.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 00:53:08.320] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-00.53.08.dat
-[25May2025 00:53:11.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:53:14.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:53:14.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-2, y=125, z=5786}
-[25May2025 00:53:16.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11044, l='ServerLevel[world]', x=63.59, y=173.00, z=5824.83] died: Gearling was doomed to fall by Jhonxd592
-[25May2025 00:53:22.038] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11031, l='ServerLevel[world]', x=68.50, y=173.00, z=5820.13] died: Gearling was blown up by Creeper
-[25May2025 00:53:26.282] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 00:53:26.288] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 00:53:30.436] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11051, l='ServerLevel[world]', x=61.90, y=178.00, z=5829.91] died: Gearling was slain by Jhonxd592
-[25May2025 00:53:31.940] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11176, l='ServerLevel[world]', x=61.78, y=178.00, z=5829.58] died: Gearling was slain by Jhonxd592
-[25May2025 00:53:32.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11183, l='ServerLevel[world]', x=61.84, y=178.00, z=5829.73] died: Gearling was slain by Jhonxd592
-[25May2025 00:53:32.687] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11055, l='ServerLevel[world]', x=61.78, y=178.00, z=5829.77] died: Gearling was slain by Jhonxd592
-[25May2025 00:53:33.541] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11053, l='ServerLevel[world]', x=61.41, y=178.00, z=5829.08] died: Gearling was slain by Jhonxd592
-[25May2025 00:53:34.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
-[25May2025 00:53:40.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:53:40.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=59, y=224, z=5822}
-[25May2025 00:53:47.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:05.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:05.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=55, y=35, z=5809}
-[25May2025 00:54:05.637] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11060, l='ServerLevel[world]', x=74.40, y=173.00, z=5822.13] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:54:05.640] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/10279, l='ServerLevel[world]', x=74.27, y=173.00, z=5822.41] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 00:54:19.622] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:19.623] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=96, y=44, z=5851}
-[25May2025 00:54:28.672] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:28.672] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=43, y=40, z=5787}
-[25May2025 00:54:42.971] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:43.502] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Drowned['Gearling'/10911, l='ServerLevel[world]', x=63.17, y=156.58, z=5829.85] died: Gearling was slain by Jhonxd592
-[25May2025 00:54:54.272] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:54:54.272] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=73, y=60, z=5758}
-[25May2025 00:55:04.122] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:11.021] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:11.022] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=45, y=115, z=5723}
-[25May2025 00:55:22.670] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:22.670] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=65, y=29, z=5823}
-[25May2025 00:55:35.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:35.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=100, y=126, z=5824}
-[25May2025 00:55:45.720] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:45.720] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=29, y=94, z=5779}
-[25May2025 00:55:45.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:55:45.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=139, y=78, z=5836}
-[25May2025 00:56:06.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [The Most Useful Key]
-[25May2025 00:56:21.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has reached the goal [A Fast Comeback]
-[25May2025 00:56:24.323] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:56:24.323] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=118, y=108, z=5816}
-[25May2025 00:56:37.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:56:42.522] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:56:42.522] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=129, y=55, z=5838}
-[25May2025 00:57:07.720] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:57:31.821] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:57:31.822] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-4, y=125, z=5789}
-[25May2025 00:57:51.032] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/11061, l='ServerLevel[world]', x=60.85, y=162.00, z=5816.15] died: Gearling was doomed to fall by Jhonxd592
-[25May2025 00:57:52.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:57:52.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=106, y=67, z=5849}
-[25May2025 00:58:53.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:58:53.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=27, y=67, z=5839}
-[25May2025 00:59:37.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:59:37.922] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-33, y=125, z=5858}
-[25May2025 00:59:48.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:59:48.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-7, y=89, z=5792}
-[25May2025 00:59:48.622] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:59:48.622] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-7, y=89, z=5792}
-[25May2025 00:59:48.623] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 00:59:48.623] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-7, y=89, z=5787}
-[25May2025 01:00:03.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 01:00:03.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=34, y=212, z=5823}
-[25May2025 01:01:18.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 01:01:18.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=61, y=190, z=5865}
-[25May2025 01:01:23.121] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 01:01:23.121] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=89, y=100, z=5753}
-[25May2025 01:01:31.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 01:03:13.473] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fisherman'/893, l='ServerLevel[world]', x=167.08, y=75.50, z=132.05] died, message: 'Fisherman hit the ground too hard'
-[25May2025 01:03:50.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:04:15.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:05:12.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:06:42.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Ashes 'n Bones]
-[25May2025 01:06:47.287] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:06:47.290] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:06:56.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by KRC
-[25May2025 01:06:56.488] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.06.56.dat
-[25May2025 01:06:56.493] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:07:37.012] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:07:37.013] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:07:43.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:08:21.452] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:08:21.453] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:08:29.079] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:08:29.084] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:08:36.357] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was doomed to fall by Skeleton
-[25May2025 01:08:36.362] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.08.36.dat
-[25May2025 01:08:37.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 went off with a bang
-[25May2025 01:08:37.741] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.08.37.dat
-[25May2025 01:08:58.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:09:19.077] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:09:19.082] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:09:20.532] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:09:20.537] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:09:24.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was doomed to fall by Skeleton
-[25May2025 01:09:24.047] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:09:26.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 01:09:26.725] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.09.26.dat
-[25May2025 01:09:55.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:10:31.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:11:13.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:12:03.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:12:41.030] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:12:41.033] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:14:01.478] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:14:01.479] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:14:38.577] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:14:38.580] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:14:40.377] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:14:40.379] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:14:46.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC went off with a bang
-[25May2025 01:14:46.284] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.14.46.dat
-[25May2025 01:14:46.287] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:14:46.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 01:14:46.448] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.14.46.dat
-[25May2025 01:15:12.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:16:00.228] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:16:00.230] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:16:02.579] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:16:02.582] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:16:11.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 01:16:11.435] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.16.11.dat
-[25May2025 01:16:41.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:18:33.929] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:18:33.931] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:18:41.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by KRC
-[25May2025 01:18:41.244] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.18.41.dat
-[25May2025 01:18:41.247] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:20:23.982] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17011, l='ServerLevel[world]', x=24.40, y=207.00, z=5827.25] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:20:23.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17012, l='ServerLevel[world]', x=23.17, y=207.00, z=5825.13] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:20:54.432] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17108, l='ServerLevel[world]', x=25.78, y=213.00, z=5815.75] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:20:57.930] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17110, l='ServerLevel[world]', x=23.87, y=208.00, z=5816.44] died: Gearling hit the ground too hard whilst trying to escape Jhonxd592
-[25May2025 01:21:00.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17131, l='ServerLevel[world]', x=25.83, y=212.00, z=5812.00] died: Gearling was slain by Jhonxd592
-[25May2025 01:21:14.080] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:21:14.083] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:21:15.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17096, l='ServerLevel[world]', x=26.13, y=207.00, z=5820.38] died: Gearling was slain by KRC
-[25May2025 01:21:15.134] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17065, l='ServerLevel[world]', x=26.80, y=207.41, z=5819.40] died: Gearling was slain by KRC
-[25May2025 01:21:15.136] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17048, l='ServerLevel[world]', x=27.85, y=207.00, z=5819.15] died: Gearling was slain by KRC
-[25May2025 01:21:15.782] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17101, l='ServerLevel[world]', x=26.85, y=209.00, z=5818.83] died: Gearling died because of KRC
-[25May2025 01:21:19.830] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17095, l='ServerLevel[world]', x=25.03, y=207.00, z=5818.89] died: Gearling died because of KRC
-[25May2025 01:21:19.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17105, l='ServerLevel[world]', x=26.60, y=207.00, z=5817.71] died: Gearling died because of KRC
-[25May2025 01:21:32.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17097, l='ServerLevel[world]', x=21.22, y=207.00, z=5824.15] died: Gearling was struck by lightning
-[25May2025 01:21:32.737] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17064, l='ServerLevel[world]', x=22.02, y=207.00, z=5824.25] died: Gearling was struck by lightning
-[25May2025 01:21:34.084] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC drowned
-[25May2025 01:21:34.089] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.21.34.dat
-[25May2025 01:21:34.092] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:21:34.980] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17028, l='ServerLevel[world]', x=20.79, y=207.00, z=5824.59] died: Gearling was struck by lightning
-[25May2025 01:21:37.980] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:21:37.982] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:21:40.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17062, l='ServerLevel[world]', x=20.90, y=207.00, z=5824.21] died: Gearling was struck by lightning
-[25May2025 01:21:45.882] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17066, l='ServerLevel[world]', x=20.81, y=207.00, z=5824.46] died: Gearling was struck by lightning
-[25May2025 01:21:50.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was struck by lightning
-[25May2025 01:21:50.792] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.21.50.dat
-[25May2025 01:22:07.780] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17693, l='ServerLevel[world]', x=22.64, y=207.00, z=5822.56] died: Gearling was struck by lightning
-[25May2025 01:22:25.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:22:45.885] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/17721, l='ServerLevel[world]', x=26.20, y=207.00, z=5826.89] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:23:41.930] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:23:41.932] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:23:53.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Wither Skeleton
-[25May2025 01:23:53.093] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.23.53.dat
-[25May2025 01:23:56.288] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:23:56.291] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:24:18.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
-[25May2025 01:24:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:24:59.387] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:24:59.388] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:25:05.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/18188, l='ServerLevel[world]', x=18.30, y=190.00, z=5824.87] died: Gearling went off with a bang
-[25May2025 01:25:07.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:25:41.430] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:25:41.432] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:25:42.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was struck by lightning
-[25May2025 01:25:42.589] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:25:59.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:26:04.085] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:26:04.092] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:26:10.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 01:26:10.193] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.26.10.dat
-[25May2025 01:26:11.828] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:26:11.832] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:26:27.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:26:29.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC drowned
-[25May2025 01:26:29.836] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:26:53.980] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:26:53.985] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:27:06.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Wither Skeleton
-[25May2025 01:27:24.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:27:44.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Sunken City]
-[25May2025 01:28:00.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:30:03.781] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:30:03.785] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:30:34.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has made the advancement [Cover Me with Diamonds]
-[25May2025 01:30:37.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20623, l='ServerLevel[world]', x=-31.52, y=212.00, z=5845.82] died: Gearling withered away whilst fighting Jhonxd592
-[25May2025 01:30:38.483] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20630, l='ServerLevel[world]', x=-30.42, y=212.00, z=5847.47] died: Gearling was slain by Jhonxd592
-[25May2025 01:30:38.636] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/20638, l='ServerLevel[world]', x=-30.48, y=212.00, z=5846.09] died: Gearling was slain by Jhonxd592
-[25May2025 01:32:25.380] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:32:25.384] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:32:37.878] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:32:37.882] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:32:44.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 01:32:44.503] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.32.44.dat
-[25May2025 01:35:27.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/21665, l='ServerLevel[world]', x=-30.18, y=207.00, z=5771.54] died: Gearling was slain by Jhonxd592
-[25May2025 01:35:29.235] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/21672, l='ServerLevel[world]', x=-31.23, y=207.00, z=5771.21] died: Gearling was slain by Jhonxd592
-[25May2025 01:37:50.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:45:26.629] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23760, l='ServerLevel[world]', x=115.42, y=212.00, z=5832.18] died: Gearling was slain by Jhonxd592
-[25May2025 01:45:37.287] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23757, l='ServerLevel[world]', x=115.51, y=211.50, z=5831.47] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:45:37.289] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23790, l='ServerLevel[world]', x=115.97, y=211.50, z=5831.51] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:45:37.291] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23817, l='ServerLevel[world]', x=115.84, y=211.50, z=5831.48] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:46:09.881] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23792, l='ServerLevel[world]', x=113.19, y=207.94, z=5820.34] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:46:17.041] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23898, l='ServerLevel[world]', x=117.32, y=210.00, z=5828.89] died: Gearling was slain by Jhonxd592
-[25May2025 01:46:17.043] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23838, l='ServerLevel[world]', x=118.56, y=209.27, z=5828.80] died: Gearling was slain by Jhonxd592
-[25May2025 01:46:19.740] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23895, l='ServerLevel[world]', x=116.15, y=209.50, z=5826.56] died: Gearling was slain by Jhonxd592
-[25May2025 01:46:25.333] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/23868, l='ServerLevel[world]', x=111.52, y=208.00, z=5817.20] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:02.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:51:17.980] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24551, l='ServerLevel[world]', x=67.51, y=242.00, z=5817.68] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:21.981] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24591, l='ServerLevel[world]', x=70.41, y=241.00, z=5822.37] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:22.780] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24549, l='ServerLevel[world]', x=70.23, y=241.00, z=5822.04] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:22.836] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24627, l='ServerLevel[world]', x=70.17, y=241.00, z=5821.17] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:27.880] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:51:27.882] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:51:28.736] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24619, l='ServerLevel[world]', x=72.35, y=241.00, z=5826.99] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:28.779] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24602, l='ServerLevel[world]', x=74.26, y=241.00, z=5823.41] died: Gearling was killed by magic whilst trying to escape Jhonxd592
-[25May2025 01:51:29.236] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24622, l='ServerLevel[world]', x=71.99, y=241.00, z=5826.21] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:29.935] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24648, l='ServerLevel[world]', x=72.03, y=241.00, z=5825.51] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:29.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24668, l='ServerLevel[world]', x=72.17, y=241.00, z=5824.89] died: Gearling was slain by Jhonxd592
-[25May2025 01:51:43.533] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:51:43.535] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:51:48.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24716, l='ServerLevel[world]', x=73.40, y=241.00, z=5826.84] died: Gearling was shot by Skeleton
-[25May2025 01:51:49.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 01:51:49.360] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.51.49.dat
-[25May2025 01:52:05.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:52:09.232] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24720, l='ServerLevel[world]', x=63.68, y=233.00, z=5821.12] died: Gearling fell from a high place
-[25May2025 01:52:26.883] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:52:26.885] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:52:27.537] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/24722, l='ServerLevel[world]', x=65.79, y=241.00, z=5824.43] died: Gearling fell from a high place
-[25May2025 01:52:27.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Skeleton
-[25May2025 01:52:34.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Skeleton
-[25May2025 01:52:42.123] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/889, l='ServerLevel[world]', x=153.76, y=75.00, z=121.46] died, message: 'Leatherworker hit the ground too hard'
-[25May2025 01:53:16.587] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25687, l='ServerLevel[world]', x=71.39, y=242.00, z=5829.91] died: Gearling was slain by Jhonxd592
-[25May2025 01:53:19.734] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25799, l='ServerLevel[world]', x=70.74, y=241.00, z=5830.31] died: Gearling was slain by Jhonxd592
-[25May2025 01:53:20.282] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25691, l='ServerLevel[world]', x=70.90, y=242.00, z=5830.25] died: Gearling was slain by Jhonxd592
-[25May2025 01:53:20.284] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25537, l='ServerLevel[world]', x=71.03, y=242.00, z=5829.74] died: Gearling was slain by Jhonxd592
-[25May2025 01:53:24.038] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25424, l='ServerLevel[world]', x=71.26, y=241.00, z=5830.16] died: Gearling was slain by Jhonxd592
-[25May2025 01:53:32.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:53:42.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:54:00.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25863, l='ServerLevel[world]', x=65.81, y=241.00, z=5824.61] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 01:54:00.986] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:54:00.988] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:54:07.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Skeleton
-[25May2025 01:54:07.619] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.54.07.dat
-[25May2025 01:54:25.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:54:35.879] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:54:35.882] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:54:47.086] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26224, l='ServerLevel[world]', x=67.12, y=252.00, z=5813.85] died: Gearling was slain by KRC
-[25May2025 01:54:48.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26013, l='ServerLevel[world]', x=68.55, y=253.00, z=5815.30] died: Gearling was slain by KRC
-[25May2025 01:54:48.831] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26131, l='ServerLevel[world]', x=67.19, y=252.00, z=5813.72] died: Gearling was slain by KRC
-[25May2025 01:54:49.583] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:54:49.587] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:54:50.130] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26350, l='ServerLevel[world]', x=67.16, y=254.50, z=5817.61] died: Gearling was slain by KRC
-[25May2025 01:54:50.132] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25978, l='ServerLevel[world]', x=66.12, y=254.50, z=5817.50] died: Gearling was slain by KRC
-[25May2025 01:54:52.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Gearling
-[25May2025 01:54:58.388] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:55:40.925] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26365, l='ServerLevel[world]', x=65.56, y=241.00, z=5821.91] died: Gearling fell from a high place
-[25May2025 01:55:46.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25813, l='ServerLevel[world]', x=65.48, y=256.50, z=5813.39] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:46.627] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26428, l='ServerLevel[world]', x=65.43, y=256.50, z=5813.48] died: Gearling died because of Jhonxd592
-[25May2025 01:55:47.230] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26430, l='ServerLevel[world]', x=65.73, y=256.50, z=5813.32] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:47.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26173, l='ServerLevel[world]', x=65.38, y=256.77, z=5813.65] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:48.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26418, l='ServerLevel[world]', x=65.40, y=256.50, z=5813.33] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:48.582] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26165, l='ServerLevel[world]', x=65.53, y=256.50, z=5813.59] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:49.329] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/25965, l='ServerLevel[world]', x=66.52, y=257.00, z=5813.53] died: Gearling was slain by Jhonxd592
-[25May2025 01:55:49.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
-[25May2025 01:55:49.535] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.55.49.dat
-[25May2025 01:55:52.527] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26421, l='ServerLevel[world]', x=65.59, y=256.50, z=5814.04] died: Gearling hit the ground too hard
-[25May2025 01:55:56.333] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26338, l='ServerLevel[world]', x=65.90, y=257.00, z=5813.69] died: Gearling was slain by Jhonxd592
-[25May2025 01:56:05.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 01:56:16.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:56:39.476] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26642, l='ServerLevel[world]', x=64.19, y=238.00, z=5821.31] died: Gearling hit the ground too hard
-[25May2025 01:56:40.927] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26605, l='ServerLevel[world]', x=65.80, y=241.00, z=5824.58] died: Gearling fell from a high place
-[25May2025 01:56:48.300] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 01:56:48.302] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:56:49.377] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26454, l='ServerLevel[world]', x=62.83, y=224.00, z=5821.52] died: Gearling fell from a high place
-[25May2025 01:56:52.386] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 01:56:52.388] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 01:56:52.431] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26136, l='ServerLevel[world]', x=68.53, y=224.48, z=5819.10] died: Gearling was blown up by Creeper
-[25May2025 01:56:52.676] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26608, l='ServerLevel[world]', x=60.64, y=222.00, z=5817.98] died: Gearling fell from a high place
-[25May2025 01:56:58.926] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26391, l='ServerLevel[world]', x=64.15, y=236.50, z=5828.83] died: Gearling hit the ground too hard
-[25May2025 01:57:01.427] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/26629, l='ServerLevel[world]', x=60.93, y=222.00, z=5818.06] died: Gearling fell from a high place
-[25May2025 01:57:10.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 fell from a high place
-[25May2025 01:57:10.107] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-01.57.10.dat
-[25May2025 01:57:10.108] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 01:57:52.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was doomed to fall by Zombie
-[25May2025 01:57:52.383] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-01.57.52.dat
-[25May2025 01:58:15.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 01:59:55.449] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27604, l='ServerLevel[world]', x=71.46, y=246.00, z=5816.81] died: Gearling was slain by Jhonxd592
-[25May2025 01:59:57.130] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27605, l='ServerLevel[world]', x=70.71, y=246.00, z=5816.38] died: Gearling was slain by Jhonxd592
-[25May2025 01:59:57.981] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27611, l='ServerLevel[world]', x=70.99, y=246.00, z=5817.06] died: Gearling died because of Jhonxd592
-[25May2025 02:00:01.683] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27618, l='ServerLevel[world]', x=72.63, y=246.00, z=5819.36] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:02.382] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27629, l='ServerLevel[world]', x=72.43, y=246.00, z=5818.85] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:03.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27632, l='ServerLevel[world]', x=73.29, y=246.00, z=5820.21] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:09.931] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27651, l='ServerLevel[world]', x=71.11, y=246.00, z=5817.67] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:10.631] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27652, l='ServerLevel[world]', x=71.47, y=246.00, z=5818.09] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:13.487] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27656, l='ServerLevel[world]', x=72.47, y=246.00, z=5819.05] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:18.229] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 02:00:18.232] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:00:18.383] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27680, l='ServerLevel[world]', x=72.13, y=246.00, z=5817.45] died: Gearling was slain by Jhonxd592
-[25May2025 02:00:22.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 went off with a bang
-[25May2025 02:00:22.438] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-02.00.22.dat
-[25May2025 02:00:22.439] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27667, l='ServerLevel[world]', x=72.61, y=246.00, z=5820.00] died: Gearling went off with a bang
-[25May2025 02:00:22.443] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:00:40.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 02:01:02.379] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 02:01:02.383] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:01:05.730] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/27928, l='ServerLevel[world]', x=71.09, y=246.00, z=5817.21] died: Gearling was slain by Skeleton
-[25May2025 02:01:22.229] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:01:22.232] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:01:35.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by Skeleton
-[25May2025 02:01:35.739] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-02.01.35.dat
-[25May2025 02:01:40.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC went off with a bang
-[25May2025 02:01:40.588] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-02.01.40.dat
-[25May2025 02:02:03.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 02:02:05.281] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28297, l='ServerLevel[world]', x=70.93, y=246.50, z=5823.05] died: Gearling went off with a bang
-[25May2025 02:02:05.282] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28300, l='ServerLevel[world]', x=72.54, y=246.00, z=5823.54] died: Gearling went off with a bang
-[25May2025 02:02:19.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:02:24.227] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28223, l='ServerLevel[world]', x=65.50, y=241.00, z=5824.07] died: Gearling fell from a high place
-[25May2025 02:02:38.082] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28669, l='ServerLevel[world]', x=72.72, y=246.71, z=5820.31] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 02:02:38.085] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28749, l='ServerLevel[world]', x=74.10, y=246.71, z=5818.76] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 02:02:38.732] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28663, l='ServerLevel[world]', x=70.15, y=246.00, z=5816.57] died: Gearling was blown to smithereens by Jhonxd592
-[25May2025 02:02:44.479] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28250, l='ServerLevel[world]', x=72.99, y=246.00, z=5819.04] died: Gearling went off with a bang
-[25May2025 02:02:44.480] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28849, l='ServerLevel[world]', x=72.63, y=246.00, z=5819.72] died: Gearling went off with a bang
-[25May2025 02:02:48.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:02:54.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28867, l='ServerLevel[world]', x=70.06, y=247.00, z=5820.98] died: Gearling went off with a bang
-[25May2025 02:02:54.978] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28868, l='ServerLevel[world]', x=70.90, y=246.00, z=5822.88] died: Gearling went off with a bang
-[25May2025 02:02:57.877] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28609, l='ServerLevel[world]', x=64.31, y=238.00, z=5821.19] died: Gearling fell from a high place
-[25May2025 02:03:01.027] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28764, l='ServerLevel[world]', x=66.50, y=241.00, z=5821.24] died: Gearling fell from a high place
-[25May2025 02:03:02.083] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28806, l='ServerLevel[world]', x=65.61, y=241.00, z=5824.10] died: Gearling fell from a high place
-[25May2025 02:03:05.676] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28296, l='ServerLevel[world]', x=68.37, y=239.00, z=5831.80] died: Gearling fell from a high place
-[25May2025 02:03:06.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28577, l='ServerLevel[world]', x=64.19, y=238.00, z=5821.31] died: Gearling hit the ground too hard
-[25May2025 02:03:17.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC has reached the goal [Bone Crusher]
-[25May2025 02:03:17.184] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28950, l='ServerLevel[world]', x=72.63, y=246.00, z=5821.78] died: Gearling was slain by KRC
-[25May2025 02:03:17.380] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28928, l='ServerLevel[world]', x=72.54, y=246.46, z=5821.90] died: Gearling was slain by KRC
-[25May2025 02:03:18.430] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28935, l='ServerLevel[world]', x=73.06, y=246.00, z=5820.86] died: Gearling was slain by KRC
-[25May2025 02:03:18.833] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28866, l='ServerLevel[world]', x=74.64, y=246.00, z=5820.49] died: Gearling was slain by KRC
-[25May2025 02:03:21.284] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28975, l='ServerLevel[world]', x=75.04, y=246.00, z=5821.48] died: Gearling was slain by KRC
-[25May2025 02:03:22.778] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 02:03:22.778] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28983, l='ServerLevel[world]', x=72.43, y=246.54, z=5823.22] died: Gearling went off with a bang
-[25May2025 02:03:22.781] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:03:24.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was slain by KRC
-[25May2025 02:03:24.989] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-02.03.24.dat
-[25May2025 02:03:24.994] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:03:28.478] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:03:28.482] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:03:28.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29033, l='ServerLevel[world]', x=72.56, y=246.00, z=5821.55] died: Gearling was slain by KRC
-[25May2025 02:03:28.684] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28989, l='ServerLevel[world]', x=72.67, y=246.00, z=5822.01] died: Gearling was slain by KRC
-[25May2025 02:03:48.330] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29171, l='ServerLevel[world]', x=70.84, y=246.00, z=5826.73] died: Gearling was slain by Jhonxd592
-[25May2025 02:03:50.728] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
-[25May2025 02:03:50.728] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29170, l='ServerLevel[world]', x=71.61, y=246.00, z=5826.78] died: Gearling went off with a bang
-[25May2025 02:03:50.732] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
-[25May2025 02:04:05.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 went off with a bang
-[25May2025 02:04:05.923] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_25.05.2025-02.04.05.dat
-[25May2025 02:04:14.231] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29151, l='ServerLevel[world]', x=65.82, y=241.00, z=5824.11] died: Gearling fell from a high place
-[25May2025 02:04:22.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gave 1 [Ender Pearl] to Jhonxd592
-[25May2025 02:04:28.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KRC was slain by Gearling
-[25May2025 02:04:28.442] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for KRC with unique ID travelersbackpack.standard_25.05.2025-02.04.28.dat
-[25May2025 02:04:37.877] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29154, l='ServerLevel[world]', x=65.88, y=241.00, z=5824.28] died: Gearling fell from a high place
-[25May2025 02:04:43.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:04:43.823] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:04:46.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:04:46.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=222, y=-10, z=202}
-[25May2025 02:04:49.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:04:49.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:04:53.630] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28870, l='ServerLevel[world]', x=60.66, y=224.00, z=5818.94] died: Gearling fell from a high place
-[25May2025 02:05:02.534] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:05:02.534] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=72, y=247, z=5822}
-[25May2025 02:05:05.580] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29915, l='ServerLevel[world]', x=72.02, y=246.00, z=5818.13] died: Gearling was slain by Jhonxd592
-[25May2025 02:05:09.976] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28301, l='ServerLevel[world]', x=60.66, y=222.00, z=5818.46] died: Gearling fell from a high place
-[25May2025 02:05:12.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29921, l='ServerLevel[world]', x=73.99, y=246.00, z=5825.10] died: Gearling was slain by Jhonxd592
-[25May2025 02:05:14.181] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29922, l='ServerLevel[world]', x=73.22, y=246.00, z=5825.34] died: Gearling was slain by Jhonxd592
-[25May2025 02:05:14.733] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29905, l='ServerLevel[world]', x=74.72, y=246.00, z=5825.22] died: Gearling died because of Jhonxd592
-[25May2025 02:05:15.280] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29814, l='ServerLevel[world]', x=74.73, y=241.00, z=5823.49] died: Gearling suffocated in a wall
-[25May2025 02:05:16.334] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29887, l='ServerLevel[world]', x=74.26, y=241.00, z=5827.60] died: Gearling was slain by KRC
-[25May2025 02:05:16.379] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29893, l='ServerLevel[world]', x=74.35, y=241.00, z=5827.44] died: Gearling was slain by KRC
-[25May2025 02:05:16.381] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29193, l='ServerLevel[world]', x=74.34, y=241.00, z=5826.19] died: Gearling was slain by KRC
-[25May2025 02:05:16.534] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29791, l='ServerLevel[world]', x=74.26, y=241.00, z=5827.43] died: Gearling was slain by KRC
-[25May2025 02:05:16.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:05:16.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=14, y=212, z=5868}
-[25May2025 02:05:17.375] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:05:17.382] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:05:18.082] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29256, l='ServerLevel[world]', x=74.27, y=241.00, z=5826.64] died: Gearling was slain by KRC
-[25May2025 02:05:18.481] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29157, l='ServerLevel[world]', x=74.14, y=241.00, z=5825.77] died: Gearling was slain by KRC
-[25May2025 02:05:18.834] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29910, l='ServerLevel[world]', x=68.74, y=224.00, z=5825.65] died: Gearling fell from a high place
-[25May2025 02:05:20.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:05:21.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:05:21.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=58, y=195, z=5863}
-[25May2025 02:05:31.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:06:18.181] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29400, l='ServerLevel[world]', x=73.31, y=247.31, z=5814.79] died: Gearling went off with a bang
-[25May2025 02:06:20.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:06:20.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=11, y=157, z=5824}
-[25May2025 02:06:30.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:06:30.972] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=9, y=178, z=5819}
-[25May2025 02:06:37.437] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:06:37.438] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=76, y=246, z=5812}
-[25May2025 02:07:07.930] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28298, l='ServerLevel[world]', x=71.51, y=241.00, z=5820.13] died: Gearling was slain by KRC
-[25May2025 02:07:10.426] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:07:10.434] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:07:12.022] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:07:12.022] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=19, y=130, z=5827}
-[25May2025 02:07:16.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:07:16.322] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=61, y=173, z=5827}
-[25May2025 02:07:22.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:07:27.520] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:07:27.520] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=77, y=195, z=5814}
-[25May2025 02:07:30.870] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:07:30.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=60, y=179, z=5809}
-[25May2025 02:07:36.482] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29195, l='ServerLevel[world]', x=64.50, y=238.00, z=5821.32] died: Gearling fell from a high place
-[25May2025 02:07:38.177] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28717, l='ServerLevel[world]', x=71.50, y=205.00, z=5814.38] died: Gearling fell from a high place
-[25May2025 02:07:57.129] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28299, l='ServerLevel[world]', x=60.66, y=222.00, z=5818.48] died: Gearling fell from a high place
-[25May2025 02:08:20.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:08:37.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:08:37.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:08:37.921] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=76, y=229, z=5864}
-[25May2025 02:08:55.871] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:08:55.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=63, y=190, z=5878}
-[25May2025 02:09:00.179] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:09:00.186] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:09:01.282] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/29184, l='ServerLevel[world]', x=72.26, y=241.00, z=5818.14] died: Gearling was slain by KRC
-[25May2025 02:09:10.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:09:15.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:09:31.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:09:31.321] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=60, y=173, z=5828}
-[25May2025 02:09:34.157] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:09:34.159] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:09:35.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:09:35.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=12, y=137, z=5835}
-[25May2025 02:09:35.671] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:09:35.671] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=14, y=159, z=5835}
-[25May2025 02:09:39.721] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:09:39.722] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=73, y=207, z=5873}
-[25May2025 02:09:43.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:10:00.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:10:00.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=17, y=173, z=5814}
-[25May2025 02:10:07.370] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:10:07.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=18, y=161, z=5810}
-[25May2025 02:10:07.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:10:07.371] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=18, y=161, z=5810}
-[25May2025 02:10:23.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:10:23.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=25, y=155, z=5811}
-[25May2025 02:10:33.970] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:10:33.970] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=115, y=207, z=5820}
-[25May2025 02:11:02.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:11:02.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=23, y=190, z=5828}
-[25May2025 02:11:36.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:11:41.821] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:11:41.822] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=71, y=241, z=5819}
-[25May2025 02:12:07.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:12:07.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=74, y=190, z=5822}
-[25May2025 02:12:33.420] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:12:33.421] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=66, y=221, z=5820}
-[25May2025 02:12:40.072] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:12:40.072] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=77, y=231, z=5862}
-[25May2025 02:13:25.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:13:25.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=71, y=212, z=5877}
-[25May2025 02:13:26.824] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Zombie['Gearling'/28293, l='ServerLevel[world]', x=71.48, y=237.00, z=5815.89] died: Gearling suffocated in a wall
-[25May2025 02:13:44.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:13:44.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:13:44.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=66, y=189, z=5834}
-[25May2025 02:13:46.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:13:46.620] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=72, y=246, z=5815}
-[25May2025 02:13:55.470] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:13:55.471] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=66, y=212, z=5831}
-[25May2025 02:14:11.922] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:14:11.922] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=69, y=207, z=5817}
-[25May2025 02:14:14.771] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:14:14.771] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=117, y=212, z=5808}
-[25May2025 02:14:56.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:14:56.621] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=28, y=161, z=5821}
-[25May2025 02:15:09.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:09.221] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=69, y=233, z=5869}
-[25May2025 02:15:09.222] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:09.222] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=69, y=233, z=5869}
-[25May2025 02:15:32.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:15:34.272] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:34.272] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=98, y=212, z=5823}
-[25May2025 02:15:46.821] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:46.822] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=52, y=235, z=5806}
-[25May2025 02:15:46.971] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:46.971] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=72, y=241, z=5822}
-[25May2025 02:15:54.570] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:54.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=66, y=161, z=5832}
-[25May2025 02:15:55.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported KRC to Jhonxd592
-[25May2025 02:15:59.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:15:59.571] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=73, y=221, z=5810}
-[25May2025 02:16:18.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:16:18.521] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=78, y=201, z=5812}
-[25May2025 02:16:25.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:16:25.920] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=55, y=222, z=5818}
-[25May2025 02:16:33.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:16:33.872] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=74, y=195, z=5812}
-[25May2025 02:17:22.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:17:22.171] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=71, y=207, z=5866}
-[25May2025 02:17:36.870] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:17:36.870] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=48, y=201, z=5829}
-[25May2025 02:17:49.234] [Server thread/WARN] [tombstone/]: The death event of the player KRC was canceled by another mod
-[25May2025 02:17:49.239] [Server thread/INFO] [tombstone/]: The player KRC has successfully been saved
-[25May2025 02:18:20.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
-[25May2025 02:18:20.772] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=65, y=207, z=5879}
+[27May2025 18:40:36.907] [Worker-Main-1/INFO] [epicfight/]: Register animations from efiscompat
+[27May2025 18:40:36.938] [Worker-Main-1/INFO] [epicfight/]: Register animations from epicfight
+[27May2025 18:40:37.174] [Worker-Main-1/INFO] [epicfight/]: Register animations from wom
+[27May2025 18:40:38.460] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 18:40:38.460] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/bloodworm}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 18:40:38.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:mofus_better_end_:entities/crown_squid}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[27May2025 18:40:38.488] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_molten_bone_greatsword: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
+[27May2025 18:40:38.500] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:augment_bruteforce_legendary: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_epic'
+[27May2025 18:40:38.512] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe mofus_better_end_:end_engine_recipe: com.google.gson.JsonSyntaxException: Unknown item 'mofus_better_end_:deleted_mod_element'
+[27May2025 18:40:38.516] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:amethyst_bless/augment_bruteforce_blessed: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_mythic'
+[27May2025 18:40:38.524] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+[27May2025 18:40:38.526] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:purified_soul: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:brewing'
+[27May2025 18:40:38.528] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe traveloptics:augment_infusion/augment_bruteforce_wild: com.google.gson.JsonSyntaxException: Unknown item 'traveloptics:augment_bruteforce_legendary'
+[27May2025 18:40:38.530] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+[27May2025 18:40:38.543] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dungeons_and_combat:light_upgrade_blazing_halberd: com.google.gson.JsonSyntaxException: Unknown item 'dungeons_and_combat:deleted_mod_element'
+[27May2025 18:40:38.548] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[27May2025 18:40:38.711] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2228 advancements
+[27May2025 18:40:38.721] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[27May2025 18:40:39.100] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[27May2025 18:40:39.106] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[27May2025 18:40:39.107] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27May2025 18:40:39.110] [main/WARN] [epicfight/]: Skill cdmoveset:fatalslash doesn't exist in the registry.
+[27May2025 18:40:39.111] [main/WARN] [epicfight/]: Skill cdmoveset:sstep doesn't exist in the registry.
+[27May2025 18:40:39.152] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[27May2025 18:40:39.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[27May2025 18:40:39.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27May2025 18:40:39.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27May2025 18:40:39.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27May2025 18:40:39.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27May2025 18:40:39.603] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[27May2025 18:40:39.682] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[27May2025 18:40:39.682] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[27May2025 18:40:39.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[27May2025 18:40:39.683] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[27May2025 18:40:39.695] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: dynamicview.json
+[27May2025 18:40:39.699] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[27May2025 18:40:39.806] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:overworld
+[27May2025 18:40:39.807] [Server thread/INFO] [net.jadenxgamer.elysium_api.Elysium/]: ElysiumBiomeSource successfully initialized for minecraft:the_nether
+[27May2025 18:40:39.809] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27May2025 18:40:39.860] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping servercore.common.mixins.json:optimizations.ticking.chunk.cache.ServerChunkCacheMixin->@Redirect::servercore$noList(I)Ljava/util/ArrayList; with priority 900, already redirected by canary.mixins.json:alloc.chunk_ticking.ServerChunkCacheMixin->@Redirect::redirectChunksListClone(I)Ljava/util/ArrayList; with priority 1000
+[27May2025 18:40:40.556] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[27May2025 18:40:40.959] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/sounds/SoundInstance for invalid dist DEDICATED_SERVER
+[27May2025 18:40:40.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27May2025 18:40:40.997] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[27May2025 18:40:43.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27May2025 18:40:43.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27May2025 18:40:43.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27May2025 18:40:43.045] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27May2025 18:40:43.046] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27May2025 18:40:43.638] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2644 ms
+[27May2025 18:40:43.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.941s)! For help, type "help"
+[27May2025 18:40:43.695] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27May2025 18:40:43.759] [Server thread/WARN] [ModernFix/]: Dedicated server took 36.097 seconds to load
+[27May2025 18:43:18.472] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jhonxd592[/127.33.255.94:33035] logged in with entity id 1039 at (62.427849399018605, 291.0, 5823.076850536395)
+[27May2025 18:43:18.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 joined the game
+[27May2025 18:44:11.516] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:44:11.517] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideListLength = 7
+[27May2025 18:44:11.517] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: RideList = creeper,spider,skeleton,chicken,pig,skeleton horse,zombie horse,
+[27May2025 18:44:11.517] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Jockey List Length = 7
+[27May2025 18:44:11.518] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: JockeyList = creeper,skeleton,zombie,pillager,vindicator,witch,zombified piglin,
+[27May2025 18:44:11.519] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=71, y=224, z=5825}
+[27May2025 18:44:24.715] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:44:24.715] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=-33, y=235, z=5782}
+[27May2025 18:44:52.013] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:44:52.014] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=109, y=195, z=5817}
+[27May2025 18:44:56.863] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:44:56.863] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=73, y=251, z=5824}
+[27May2025 18:44:59.112] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:44:59.113] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=26, y=212, z=5872}
+[27May2025 18:45:06.015] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: ESM - Init Rideable EntityEntity_Type and Jockey Lists...
+[27May2025 18:45:06.015] [Server thread/INFO] [com.esm.nightmare.MobBehavs.SpawnRideableMob/]: Spawning Jockey at: BlockPos{x=123, y=212, z=5815}
+[27May2025 18:45:46.619] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/899, l='ServerLevel[world]', x=154.64, y=76.00, z=119.42] died, message: 'Villager hit the ground too hard'
+[27May2025 18:54:47.289] [Worker-Main-27/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[27May2025 18:54:47.289] [Worker-Main-27/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
