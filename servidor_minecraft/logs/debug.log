@@ -4302,3 +4302,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [27May2025 19:35:45.796] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [27May2025 19:40:45.787] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [27May2025 19:40:45.797] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27May2025 19:45:45.793] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27May2025 19:45:45.803] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27May2025 19:50:45.791] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[27May2025 19:50:45.800] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[27May2025 19:50:49.012] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/900, l='ServerLevel[world]', x=153.69, y=75.00, z=121.47] died, message: 'Villager hit the ground too hard'
