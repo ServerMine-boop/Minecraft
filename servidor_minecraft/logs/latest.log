@@ -240,3 +240,6 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [27May2025 19:11:43.890] [Worker-Main-27/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
 [27May2025 19:18:43.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Sneak 100]
 [27May2025 19:20:04.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [I can't breathe]
+[27May2025 19:20:39.916] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/888, l='ServerLevel[world]', x=153.76, y=75.00, z=121.52] died, message: 'Leatherworker hit the ground too hard'
+[27May2025 19:24:26.633] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jhonxd592 lost connection: Disconnected
+[27May2025 19:24:26.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 left the game
