@@ -225,3 +225,18 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [27May2025 18:45:46.619] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/899, l='ServerLevel[world]', x=154.64, y=76.00, z=119.42] died, message: 'Villager hit the ground too hard'
 [27May2025 18:54:47.289] [Worker-Main-27/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
 [27May2025 18:54:47.289] [Worker-Main-27/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[27May2025 19:07:46.575] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9491, l='ServerLevel[world]', x=659.66, y=110.00, z=7328.83] died, message: 'Villager was shot by Skeleton'
+[27May2025 19:07:52.675] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/9492, l='ServerLevel[world]', x=679.48, y=109.94, z=7352.41] died, message: 'Villager was shot by Skeleton'
+[27May2025 19:07:58.943] [Server thread/WARN] [tombstone/]: The death event of the player Jhonxd592 was canceled by another mod
+[27May2025 19:07:58.949] [Server thread/INFO] [tombstone/]: The player Jhonxd592 has successfully been saved
+[27May2025 19:08:04.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 was shot by Skeleton
+[27May2025 19:08:04.948] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Jhonxd592 with unique ID travelersbackpack.standard_27.05.2025-19.08.04.dat
+[27May2025 19:09:28.584] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[27May2025 19:11:39.688] [Worker-Main-12/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-276, y=-57, z=-243}
+[27May2025 19:11:39.761] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-274, y=-57, z=-245}
+[27May2025 19:11:39.762] [Worker-Main-11/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-277, y=-57, z=-244}
+[27May2025 19:11:43.889] [Worker-Main-27/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[27May2025 19:11:43.890] [Worker-Main-27/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[27May2025 19:11:43.890] [Worker-Main-27/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[27May2025 19:18:43.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [Sneak 100]
+[27May2025 19:20:04.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jhonxd592 has made the advancement [I can't breathe]

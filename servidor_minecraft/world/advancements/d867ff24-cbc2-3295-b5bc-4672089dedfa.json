@@ -76,14 +76,17 @@
       "minecraft:taiga": "2025-05-24 00:00:23 +0000",
       "minecraft:deep_ocean": "2025-05-24 04:19:05 +0000",
       "minecraft:frozen_river": "2025-05-23 22:52:50 +0000",
+      "minecraft:cherry_grove": "2025-05-27 19:09:04 +0000",
       "minecraft:beach": "2025-05-22 17:17:21 +0000",
       "minecraft:river": "2025-05-22 17:19:22 +0000",
       "minecraft:snowy_plains": "2025-05-23 23:35:07 +0000",
       "minecraft:snowy_taiga": "2025-05-23 23:42:38 +0000",
       "minecraft:swamp": "2025-05-24 01:31:04 +0000",
+      "minecraft:jagged_peaks": "2025-05-27 19:05:50 +0000",
       "minecraft:cold_ocean": "2025-05-24 01:58:08 +0000",
       "minecraft:forest": "2025-05-22 16:43:32 +0000",
       "minecraft:ocean": "2025-05-24 04:18:17 +0000",
+      "minecraft:meadow": "2025-05-27 19:00:15 +0000",
       "minecraft:plains": "2025-05-22 16:49:52 +0000"
     },
     "done": false
@@ -596,6 +599,7 @@
       "golden_apple": "2025-05-25 01:21:39 +0000",
       "rotten_flesh": "2025-05-27 18:51:01 +0000",
       "golden_carrot": "2025-05-24 04:37:59 +0000",
+      "cooked_chicken": "2025-05-27 18:57:15 +0000",
       "carrot": "2025-05-25 02:08:03 +0000"
     },
     "done": false
@@ -2944,6 +2948,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_button": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
       "has_brown_wool": "2025-05-27 18:52:17 +0000"
@@ -2956,15 +2966,75 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_brown_wool": "2025-05-27 18:52:17 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/acacia_slab": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_door": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_sign": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2025-05-27 19:09:03 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/decorations/brown_sleeping_bag": {
     "criteria": {
       "has_brown_wool": "2025-05-27 18:52:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-05-27 19:09:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/acacia_fence": {
+    "criteria": {
+      "has_planks": "2025-05-27 19:09:08 +0000"
     },
     "done": true
   },
